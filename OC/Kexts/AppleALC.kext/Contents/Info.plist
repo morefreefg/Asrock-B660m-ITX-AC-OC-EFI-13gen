@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>22D49</string>
+	<string>21G320</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.8.6</string>
+	<string>1.9.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,7 +25,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.8.6</string>
+	<string>1.9.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -65,6 +65,38 @@
 			<string>as.vit9696.AppleALC</string>
 			<key>HDAConfigDefault</key>
 			<array>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>CodecID</key>
+					<integer>283906408</integer>
+					<key>CodecName</key>
+					<string>Realtek ALC S1220A Hoangtu92, 7.1 outputs (MSI X470 Gaming Pro Carbon)</string>
+					<key>ConfigData</key>
+					<data>
+					AScc8AEnHQABJx4AAScfQAFHHBABRx1QAUce
+					EQFHHwEBRwwCAVccIAFXHRABVx4BAVcfAQFn
+					HDABZx1gAWceAQFnHwEBdxzwAXcdAAF3HgAB
+					dx9AAYccQAGHHSABhx4BAYcfAQGXHFABlx2Q
+					AZcegQGXHwIBpxxgAacdMAGnHoEBpx8BAbcc
+					cAG3HUABtx4hAbcfAgG3DAIB1xzwAdcdAAHX
+					HgAB1x9AAeccgAHnHRAB5x5FAecfAQIFAAcC
+					BAPAAgUAQwIEMAUCBQBdAgQWFgIFAF4CBBAQ
+					AgUAXwIEv8UCBQBqAgQCDgIFAG8CBIAz
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgG3DAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>
@@ -631,92 +663,777 @@
 					<integer>28</integer>
 				</dict>
 				<dict>
-					<key>A                                                               Í        äx äyäzä{ä| #2ä}8ä~8ääÄDäÅH(äÇ $äÉäÑ %äÖäÜ &äáäà)äâ )ää$#LDVRäã +äå$#8äçLPJäé%äè ,äê(%äë)äí -äì-äî DäïH(8äñ Fäó...äò Läôäö Täõ8äúärI9Käs5 x        â˚ â¸â˝ *â˛24X^âˇ -ä ä)ä#BPä+ä 8ä*,)Zä ]ä$ä%ä	$$ä
-$$$ä8ä&ä'ä`        ä≈ ä∆ä« %ä»-**#&ä… 'ä äÀ (äÃäÕäŒäœ *ä–ä—$Fä“ ,ä”)Zä‘äª*'&%%)0*'äºäã/       äT äUäVäWäXäYäZ #Mä[	QK9?7Eä\Eä]–øä^—Ä–æ—Ñ–∏–ª—åä_ $ä`äa%'äb %äc(+(,'*(,äd)$äe &äfäg 'ähäi +äjäk -äläm 1än%äo 6äp"),,+4-#6),(#(&,%#-)2'#6&042((.8(+)äq >ärI9Käs ]ätäu läv&äw$ä9&ä:%&%*ä; +ä<ä=ä>$#<4'Lä?%ä@F\#:/G?I;äA
-\#:/G?I;äBV4'#28äC$*,02(.#'*&4#)2%(#0-8+#2)-*'&%%)0*'äD6BäE ,äFäG('&$$äH 4äI/U/äJ 8äKäL FäM/SCäN HäO6X.äP\N\0[äQ  5        '99yB($$yâØ,â∞%yâ±(â≤,â≥3â¥&yâµ&â∂            â˜ â¯â˘â˙H6X.â∫ 1âª IDU?UE75E    G	      3KGl/MME7l1WI5E7F?3ISGC7QI7E#7]U7IS?KIHG/31?I/Q_#/Q3=?Y7IM/3C/;7JQKM7QU_#E?SUKG?3QKSK9Ul[/Y79KQG#/W5?KL5_Il/=*&5(QY(;7,$&&]OMO]&N3)MOO;']=PI']GQMW1E?3l/Q3=?Y7R
-W5?KSY?SW/E#3KIU7IUT	3KIU7IUU	5/U/V
-?Q73UKQ_	9KE57Q	?G/;7W
-U7G	MI;X	YKEWG7
-3KGl/MME7l?3ISYC7QI7E#7]U7IS?KIZG/31?I/Q_#/Q3=?Y7[MQKM7QU_#E?SU\G?3QKSK9Ul[/Y79KQG#/W5?K]5_Il/=*&5(QY(;7,$&&]O^O]&_3)MO`;']=aI']GbMW1E?3l9KE57Qc	MI;d	YKEWG7.2L>e
-3?5/IU=7Q/fF8>L/SSlC7]UgI5QK?5l?3IShMME7.D2lC7]Ui	P73Yl?3ISjE&]k1ElTFl?3ISm
-E&]n1Eol?3ISpE&]q	1ErQ3=l?3ISs	SUQ/l?3IStW5?Ku0JJTv]*(l79?wKKUB?3C7Ql79?xEK/57Ql?3ISyS]F%zUI8K3WSl?3IS{1E/3CE?SUl39;|KS]}27IUKSl?3IS~
-8:DK3Cl79?
-=/CQ/l?3ISÄÄQ5KII/_ÄÅ
-?MTWI7l79?ÄÇ	QKG7l?3ISÄÉE7/IHYQ/Gl79?ÄÑKIUQKEFSQ6&l79?ÄÖLV8Q?7I54/U/LQKY?57QlC7]UÄÜlC7]UÄáQWI3=1/I;l?3ISÄà
-SQVU?El79?Äâ
-WQSKQl?3ISÄä3KI9?;lME?SUÄã471?/Il?3ISÄå	7M?Il?3ISÄç	YW/Il?3ISÄéKUl?3ISÄèQ?Y7QSÄê68>Äë0KKUlE&]Äí1EÄìE7G7IU/Q_JRl?3ISÄîI5E7SSl?3ISÄïU7Ql?3ISÄñ]U.MME7P73Yl?3ISÄó
-TFl?3ISÄò
-l?3ISÄô</Q54Q?Y7l?3ISÄö
-R=7EEl?3ISÄõZ?I5K[S%%l?3ISÄúyPKWI575l?3ISÄùl?3ISÄû79?Äü875KQ/l?3ISÄ†KIUÄ°y%]l1?IÄ¢
-MI;Ä£&]l1?IÄ§
-MI;Ä•Q770R4l?3ISÄ¶4JRl?3ISÄßW;/E[/Q7l?3ISÄ®:7IUKKl?3ISÄ©	KE57I:/U7Ä™	MRUKMl79?Ä´QW1l?3ISÄ¨
-</?CWl?3ISÄ≠Q54Q?Y7l?3ISÄÆ>G/;7ÄØIU7EF/WS?lC7]UÄ∞J,$&%%8/G?E_D7;/3_lC7]UÄ±RC_[/EC8/G?E_lC7]UÄ≤	B/E?l?3ISÄ≥7]USÄ¥_T7SU7Ql79?ÄµIKMM?]l?3ISÄ∂W1WIUWl?3ISÄ∑D/17EÄ∏79Ul?3ISÄπ?EWlC7]UÄ∫IW]l?3ISÄªK3Cl?3ISÄºW1WIUWl?3ISÄΩ3_PTD,%&)6U=7QI7UlC7]UÄæF/;7?/l?3ISÄø
-IA/QKl?3ISÄ¿7GT7SUl?3ISÄ¡?IUl?3ISÄ¬G/M4WGMl79?Ä√G7GU7SUÄƒ	l79?Ä≈K5:PV0R=7EEl79?Ä∆U,*lMI;Ä«H7U0R4l?3ISÄ»J2Ä…68>.W5?KyXK?37JY7Qy0KKUl[/YÄ M7I2/IKM_l79?ÄÀ
-KIUQKEl79?ÄÃQ7l79?ÄÕ?3ISÄŒ<9SLEWSl79?ÄœPWIU?G7l79?Ä–	R=7EEl79?Ä—
-Q/3E7l?3ISÄ“U=7QlE&]Ä”	1EÄ‘K3Ä’E52KI9?;lME?SUÄ÷M7IRVR6l?3ISÄ◊L/SS[KQ5l?3ISÄÿ3D?IW]l?3ISÄŸ=K7I?]l?3ISÄ⁄	KMJRl?3ISÄ€	WMM_l?3ISÄ‹P7/3UJRl?3ISÄ›	5</Ul?3ISÄﬁ
-G?]JRl?3ISÄﬂS7UHXP.Fl?3ISÄ‡E&]Ä·1EÄ‚YQ/G6IUQ_l79?Ä„
-R_SU7Gl79?Ä‰KWQ37SÄÂ	U/QUl?3ISÄÊ		y/EUl?3ISÄÁQ?3U6Y7IUSlC7]UÄË<6Dl?3ISÄÈ	?;=Ul?3ISÄÍ	K3C_l?3ISÄÎU3P[l79?ÄÏR7E73U75l?3ISÄÌ
-
-y0EW7l?3ISÄÓJQ/I;7l?3ISÄÔLWQME7l?3ISÄP75l?3ISÄÒKQl?3ISÄÚU479/WEUl?3ISÄÛ	=7EEl?3ISÄÙE&]Äı	1EÄˆWU4K[Il?3ISÄ˜>L4?S/1E75lE&]Ä¯1EÄ˘6I/1E75lE&]Ä˙1EÄ˚E/3C[/Q7l?3ISÄ¸F2LQK37SSKQlC7]UÄ˝RWM7Q>JlC7]UÄ˛R4T#.Z.2l/GEÄˇ4?S/1E7#2HXZl/GEÅ 62#VR0\l/GEÅLDV:#.DTl/GEÅP<V0l/GEÅR0VR#F2<2l/GEÅVR0Zl/GEÅ\<y.4DR'l/GEÅ_Q/=ÅTK;;E7R>Ll?3ISÅKESÅ	l?3ISÅ
-E&]Å1EÅ
-MG>I9Kl79?ÅV1WIUWF.T6l?3ISÅl?3ISÅIU?UE75R0LKQUSlC7]UÅZ/C78?]WMlC7]UÅWI?9KIUl1?IÅX?QUW/ERF2lC7]UÅK?5l?3ISÅZ=/U7Y7Q:Q77IlC7]UÅ?I5K[S%%l?3ISÅyPKWI575l?3ISÅ	l?3ISÅ
-E&]Å1EÅ\W1WIUWl?3ISÅ
-`KQ?Il?3ISÅ.2L>Å
-3?5/IU=7Q/ÅF8>L/SSlC7]UÅI5QK?5l?3ISÅ MME7.D2lC7]UÅ!	P73Yl?3ISÅ"E&]Å#1EÅ$TFl?3ISÅ%
-E&]Å&1EÅ'l?3ISÅ(E&]Å)	1EÅ*Q3=l?3ISÅ+	SUQ/l?3ISÅ,W5?KÅ-0JJTÅ.]*(l79?Å/KKUB?3C7Ql79?Å0EK/57Ql?3ISÅ1S]F%Å2UI8K3WSl?3ISÅ31E/3CE?SUl39;Å4KS]Å527IUKSl?3ISÅ6
-8:DK3Cl79?Å7
-=/CQ/l?3ISÅ8Q5KII/_Å9
-?MTWI7l79?Å:	QKG7l?3ISÅ;E7/IHYQ/Gl79?Å<KIUQKEFSQ6&l79?Å=LV8Q?7I54/U/LQKY?57QlC7]UÅ>lC7]UÅ?QWI3=1/I;l?3ISÅ@
-SQVU?El79?ÅA
-WQSKQl?3ISÅB3KI9?;lME?SUÅC471?/Il?3ISÅD	7M?Il?3ISÅE	YW/Il?3ISÅFKUl?3ISÅGQ?Y7QSÅH68>ÅI0KKUlE&]ÅJ1EÅKE7G7IU/Q_JRl?3ISÅLI5E7SSl?3ISÅMU7Ql?3ISÅN]U.MME7P73Yl?3ISÅO
-TFl?3ISÅP
-l?3ISÅQ</Q54Q?Y7l?3ISÅR
-R=7EEl?3ISÅSZ?I5K[S%%l?3ISÅTyPKWI575l?3ISÅUl?3ISÅV79?ÅW875KQ/l?3ISÅXKIUÅYy%]l1?IÅZ
-MI;Å[&]l1?IÅ\
-MI;Å]Q770R4l?3ISÅ^4JRl?3ISÅ_W;/E[/Q7l?3ISÅ`:7IUKKl?3ISÅa	KE57I:/U7Åb	MRUKMl79?ÅcQW1l?3ISÅd
-</?CWl?3ISÅeQ54Q?Y7l?3ISÅf>G/;7ÅgIU7EF/WS?lC7]UÅhJ,$&%%8/G?E_D7;/3_lC7]UÅiRC_[/EC8/G?E_lC7]UÅj	B/E?l?3ISÅk7]USÅl_T7SU7Ql79?ÅmIKMM?]l?3ISÅnW1WIUWl?3ISÅoD/17EÅp79Ul?3ISÅq?EWlC7]UÅrIW]l?3ISÅsK3Cl?3ISÅtW1WIUWl?3ISÅu3_PTD,%&)6U=7QI7UlC7]UÅvF/;7?/l?3ISÅw
-IA/QKl?3ISÅx7GT7SUl?3ISÅy?IUl?3ISÅzG/M4WGMl79?Å{G7GU7SUÅ|	l79?Å}K5:PV0R=7EEl79?Å~U,*lMI;ÅH7U0R4l?3ISÅÄJ2ÅÅ68>.W5?KyXK?37JY7Qy0KKUl[/YÅÇM7I2/IKM_l79?ÅÉ
-KIUQKEl79?ÅÑQ7l79?ÅÖ?3ISÅÜ<9SLEWSl79?ÅáPWIU?G7l79?Åà	R=7EEl79?Åâ
-Q/3E7l?3ISÅäU=7QlE&]Åã	1EÅåK3ÅçE52KI9?;lME?SUÅéM7IRVR6l?3ISÅèL/SS[KQ5l?3ISÅê3D?IW]l?3ISÅë=K7I?]l?3ISÅí	KMJRl?3ISÅì	WMM_l?3ISÅîP7/3UJRl?3ISÅï	5</Ul?3ISÅñ
-G?]JRl?3ISÅóS7UHXP.Fl?3ISÅòE&]Åô1EÅöYQ/G6IUQ_l79?Åõ
-R_SU7Gl79?ÅúKWQ37SÅù	U/QUl?3ISÅû		y/EUl?3ISÅüQ?3U6Y7IUSlC7]UÅ†<6Dl?3ISÅ°	?;=Ul?3ISÅ¢	K3C_l?3ISÅ£U3P[l79?Å§R7E73U75l?3ISÅ•
-
-y0EW7l?3ISÅ¶JQ/I;7l?3ISÅßLWQME7l?3ISÅ®P75l?3ISÅ©KQl?3ISÅ™U479/WEUl?3ISÅ´	=7EEl?3ISÅ¨E&]Å≠	1EÅÆWU4K[Il?3ISÅØ>L4?S/1E75lE&]Å∞1EÅ±6I/1E75lE&]Å≤1EÅ≥E/3C[/Q7l?3ISÅ¥F2LQK37SSKQlC7]UÅµRWM7Q>JlC7]UÅ∂R4T#.Z.2l/GEÅ∑4?S/1E7#2HXZl/GEÅ∏62#VR0\l/GEÅπLDV:#.DTl/GEÅ∫P<V0l/GEÅªR0VR#F2<2l/GEÅºVR0Zl/GEÅΩ\<y.4DR'l/GEÅæ_Q/=ÅøTK;;E7R>Ll?3ISÅ¿KESÅ¡l?3ISÅ¬E&]Å√1EÅƒ
-MG>I9Kl79?Å≈V1WIUWF.T6l?3ISÅ∆l?3ISÅ«IU?UE75R0LKQUSlC7]UÅ»Z/C78?]WMlC7]UÅ…WI?9KIUl1?IÅ X?QUW/ERF2lC7]UÅÀK?5l?3ISÅÃZ=/U7Y7Q:Q77IlC7]UÅÕ?I5K[S%%l?3ISÅŒyPKWI575l?3ISÅœ	l?3ISÅ–
-E&]Å—1EÅ“\W1WIUWl?3ISÅ”
-`KQ?Il?3ISÅ‘7D/Y9),l&-l%$$Å’U@%+*,02(.#'*&4#)2%(#0-8+#2)-*'&%%)0*'mR_SU7GmXKEWG7Sm4/U/mVS7QSm97I;;W/I;m47SCUKMm79?Å÷T:Q/_Å◊P:0Åÿ u/Sl/3?5/IU=7Q/lG?7a7l>IU7EF/WS?ÅŸY?U-*-*l.MME7.D2Å⁄D?EWÅ€P7SUQ?3U6Y7IUSÅ‹RF2LQK37SSKQÅ›
-X?QUW/ERF2ÅﬁZ=/U7Y7Q:Q77IÅﬂ#3KGl/MME7l?KC?Ul>J,$&%%8/G?E_D7;/3_Å‡RC_[/EC8/G?E_Å·5=?I/C;l.F8>L/SSÅ‚<7/5SK9UlVR0LKQUSÅ„?IS/I7E_G/3lDW3_PTD,%&)6U=7QI7UÅ‰KS_,*lVR0Z/C78?]WMÅÂ KQ;l/3?5/IU=7Q/l5Q?Y7Ql2LV8Q?7I5ÅÊ$Y/I?EE/l5Q?Y7Ql2LV8Q?7I54/U/LQKY?57QÅÁQWlAK75GlRF2RWM7Q>JÅË#v.!ÅEU/E/!ÅIKS SaW!àQC7 ;/GG/ &l&ÅÈ!E;7G77I ;Q?AS ;/GG/ &k&#MQK9?7EÅÍ'E;7G7?I7S :Q/WSUW97I#LQK9?E :/GG/ &k&ÅÎ,2/!Ç!ÅW =?!ÄI= F/!ÄW ]/!ÅG 2=WI; :/GG/ &l&ÅÏ:/G/ ;Q? ;7I7Q?3/!Ü &k&ÅÌG/ 57 ;Q?SKS ;7I7!ÄQ?3/ &l&ÅÓ7I7E :Q? :/G/ &k&ÅÔQ?3 :Q/_ :/GG/ &l& LQK9?E7Å	!åC? :Q/_ :/GG/ &l& MQK9?EÅÒSC ;Q/!ä &k& ;/GG/#MQK9?EÅÚMQK9?EÅÛ;/GG/ &k&#MQK9?EÅÙJ173I/!Å S!å75/!Å ;/G/ &l&Åı)L7Q9?E :7I7!ÅQ?3K 5/ :/G/ 57 2?Ia/S &k&Åˆ&	;7I7!ÅQ?3K 57 3?Ia7IUKS 5/ :/GG/ &k&Å˜;/GG/ 57 ;Q?S7S &k&Å¯$QK9?E ;7!ÅI7!ÅQ?OW7 ;Q?S ;/GG/ &k&Å˘#K ;Q?;?K ;7I7Q?3K 57EE/ ;/GG/ &k&Å˙SP:0 >62*%-**#&l%Å˚)VI?[7QS/EI_ MQK9?E Sa/QKS!Å3? ;/GG/ &k&Å¸XS!å7K173I/!Å S?Y/!Å ;/G/ &k&Å˝%^E7?I7I =/QG//I ;/GG/ &k& #MQK9??E?Å˛*ŒìŒµŒΩŒπŒ∫Œø!Å ŒìŒ∫œÅŒπ ŒìŒ±!ÅŒºŒºŒ± &l&Åˇ$–ó–∞–≥–∞–ª—å–Ω–∞ :Q/_#–≥–∞–º–∞ &l&Ç 4û–±—â–∞—è —Å–µ—Ä–∞—è –≥–∞–º–º–∞ &k&#–ø—Ä–æ—Ñ–∏–ª—åÇ ◊í◊ê◊û◊î ◊ê◊§◊ï◊® ◊õ◊ú◊ú◊ô &l&Ç'ÿ∫ÿßŸÖÿß &l& ŸÑŸàŸÜ ÿ±ŸÖÿßÿØŸä ÿπÿßŸÖÇE‡∏£‡∏±‡∏á‡∏™‡∏µ‡πÅ‡∏Å‡∏°‡∏°‡∏≤‡πÄ‡∏Å‡∏£‡∏¢‡πå‡∏ó‡∏±‡πà‡∏ß‡πÑ‡∏õ &l&ÇT·Ñã·Öµ·ÜØ·Ñá·Ö°·Ü´ ·Ñí·Ö¨·Ñâ·Ö¢·Ü® ·ÑÄ·Ö°·Ü∑·ÑÜ·Ö° &l& ·Ñë·Ö≥·ÑÖ·Ö©·Ñë·Ö°·Ñã·Öµ·ÜØÇ:‰∏ÄËà¨„ÇØ„Çô„É¨„Ç§„Ç´„Çô„É≥„Éû &l& „Éï„Çö„É≠„Éï„Ç°„Ç§„É´Ç#ÊôÆÈÄöÁÅ∞Â∫¶Á≥ªÊï∞&l&ÊèèËø∞Êñá‰ª∂Ç#ÈÄöÁî®ÁÅ∞ÈöéÂÖâÂ∫¶&l&Ëâ≤ÂΩ©ÊèèËø∞Ç!w.5K17 L=KUKS=KM &&l& gF/3?IUKS=hÇ	' gF/3?IUKS=hÇ
-y79?ÇzRKWI5Ç /=*&5(QY(;7,$&&]OÇO]&Ç3)MOÇ;']=ÇI']GÇMME7ÇQ3=?Y7ÇW5?KÇY?SW/E#3KIU7IUÇ1WI5E7Ç3KGÇ/MME7Ç	G?3QKSK9UÇIU7IUÇ5/U/Ç?Q73UKQ__IÇ	7]U7IS?KIÇ9KE57Q	?3ISÇG/;7ÇU7G
-C7QI7E#7]U7IS?KIÇ E?SUÇ!G/31?I/Q_#/Q3=?Y7Ç"?3QKSK9UÇ#M/3C/;7Ç$I;Ç%QKM7QU_#E?SUÇ&W1E?3YKEWG7[/Y79KQG#/W5?KÇ'l 
-/=*&5(QY(;7,$&&]OÇ(O]&Ç)3)MOÇ*;']=Ç+I']GÇ,MME7Ç-Q3=?Y7Ç.W5?KÇ/3KGÇ0/MME7Ç1	G?3QKSK9UÇ25_IÇ3	7]U7IS?KIÇ49KE57QÇ5?3ISÇ6C7QI7E#7]U7IS?KIÇ7E?SUÇ8G/31?I/Q_#/Q3=?Y7Ç9?3QKSK9UÇ:MI;Ç;QKM7QU_#E?SUÇ<W1E?3YKEWG7[/Y79KQG#/W5?KÇ=l %Ç>%Ç?]Ç@&ÇA]ÇB'ÇC*(ÇD,$&%%8/G?E_D7;/3_ÇE%&)6U=7QI7UÇF*ÇG.2L>ÇH
-3?5/IU=7Q/ÇI4DR'ÇJD2ÇKTÇLF8>L/SSÇMI5QK?5ÇNMME7ÇO.D2ÇPP73YÇQTFÇRQ3=ÇSSUQ/ÇTW5?KÇUZ.2ÇV/EUÇWGEÇX0EW7ÇYJJTÇZ]*(Ç[KKUÇ\B?3C7QÇ]EK/57QÇ^R4Ç_S]F%Ç`UI8K3WSÇa1?IÇbE/3CE?SUÇcKS]Çd2/IKM_Çe7IUKSÇf8:DK3CÇg=/CQ/ÇhQ5KII/_Çi?MTWI7ÇjQKG7Çk	E7/IHYQ/GÇlHXZÇmKI9?;ÇnUQKEÇoFSQ6&ÇpQ7ÇqLV8Q?7I5Çr
-4/U/LQKY?57QÇs	QWI3=1/I;ÇtSQVU?EÇuWQSKQÇv39;ÇwKI9?;Çx4/U/LQKY?57QÇy71?/IÇz7M?IÇ{9/WEUÇ|YW/IÇ}?S/1E7#2HXZÇ~5ÇJRÇÄKUÇÅ[IÇÇQ?Y7ÇÉQSÇÑWGMÇÖ6&ÇÜ2#VR0\Çá8>Çà0KKUÇâE7G7IU/Q_JRÇäI/1E75Çã5E7SSÇåU7QÇçQ_ÇéU=7QI7UÇèY7IUSÇê]U.MME7Çë	P73YÇí	TFÇì	</Q54Q?Y7ÇîR=7EEÇïZ?I5K[SÇñ%%Çó79?Çò8/G?E_ÇôD7;/3_Çö75KQ/Çõ?]WMÇúK3WSÇùIUÇûQ770R4Çü4JRÇ†?7I5Ç°4/U/LQKY?57QÇ¢W;/E[/Q7Ç£:/U7Ç§7IUKKÇ•	KE57I:/U7Ç¶MRUKMÇßPV0R=7EEÇ®Q77IÇ©W1Ç™</?CWÇ´Q54Q?Y7Ç¨UÇ≠9SLEWSÇÆ>G/;7ÇØI9KÇ∞U7EF/WS?Ç±JÇ≤,$&%%8/G?E_D7;/3_Ç≥RC_[/EC8/G?E_Ç¥?3ISÇµB/E?Ç∂7]USÇ∑_T7SU7QÇ∏?3C7QÇπIKMM?]Ç∫W1WIUWÇªC7]UÇºD/17EÇΩ79UÇæ;/3_Çø?EWÇ¿IW]Ç¡K3CÇ¬W1WIUWÇ√3_PTD,%&)6U=7QI7UÇƒE&]Ç≈1EÇ∆F%Ç«.T6Ç»/;7?/Ç…IA/QKÇ WS?ÇÀ2<2ÇÃ7GT7SUÇÕ?IUÇŒG/M4WGMÇœSQ6&Ç–G7GU7SUÇ—K5:PV0R=7EEÇ“U,*Ç”H7U0R4Ç‘XP.FÇ’YQ/GÇ÷6IUQ_Ç◊J2Çÿ68>.W5?KÇŸ	M7I2/IKM_Ç⁄KIUQKEÇ€Q7Ç‹<9SLEWSÇ›PWIU?G7ÇﬁR=7EEÇﬂQ/3E7Ç‡I;7Ç·RÇ‚U=7QÇ„Y7QÇ‰K3ÇÂE52KI9?;ÇÊM7IRVR6ÇÁL/SSÇË[KQ5ÇÈ3D?IW]ÇÍ=K7I?]ÇÎDV:#.DTÇÏEWSÇÌKMJRÇÓQUSÇÔQK37SSKQÇY?57QÇÒWMM_ÇÚQME7ÇÛME?SUÇÙI;ÇıP7/3UJRÇˆ3YÇ˜5Ç¯</UÇ˘G?]JRÇ˙S7UHXP.FÇ˚	YQ/G6IUQ_Ç¸R_SU7GÇ˝KWQ37SÇ˛U/QUÇˇ
-Q?3U6Y7IUSÉ <6DÉV0É?;=UÉK3C_ÉWI575ÉTD,%&)6U=7QI7UÉU3P[ÉWIU?G7É[É		R0VR#F2<2É
-7E73U75ÉKQÉU479/WEUÉ=7EEÉWU4K[IÉ>LÉ4?S/1E75É6I/1E75ÉC_[/EC8/G?E_ÉE/3C[/Q7ÉF2É	LQK37SSKQÉRWM7Q>JÉR4T#.Z.2É4?S/1E7#2HXZÉ62#VR0\ÉLDV:#.DTÉP<V0É	R0VR#F2<2ÉVR0ZÉ\<ÉUKMÉ VR6É!WM7Q>JÉ"_Q/=É#SU7GÉ$T7SUÉ%7QÉ&FÉ'K;;E7R>LÉ(KEÉ)SÉ*MG>I9KÉ+WI7É,]*(É-V1WIUWÉ.F.T6É/IU?UE75R0LKQUSÉ0ZÉ1/C78?]WMÉ2\É3U?EÉ4WI?9KIUÉ5
-X?QUW/ERF2É6K?37JY7QÉ75É8	Z/C78?]WMÉ9=/U7Y7Q:Q77IÉ:?I5K[SÉ;%%É<[/YÉ=\<É>W1WIUWÉ?]É@`KQ?IÉAlÉByÉC %ÉD%ÉE]ÉF&ÉG]ÉH'ÉI*(ÉJ,$&%%8/G?E_D7;/3_ÉK%&)6U=7QI7UÉL*ÉM.2L>ÉN
-3?5/IU=7Q/ÉO4DR'ÉPD2ÉQTÉRF8>L/SSÉSI5QK?5ÉTMME7ÉU.D2ÉVP73YÉWTFÉXQ3=ÉYSUQ/ÉZW5?KÉ[Z.2É\/EUÉ]GEÉ^0EW7É_JJTÉ`]*(ÉaKKUÉbB?3C7QÉcEK/57QÉdR4ÉeS]F%ÉfUI8K3WSÉg1?IÉhE/3CE?SUÉiKS]Éj2/IKM_Ék7IUKSÉl8:DK3CÉm=/CQ/ÉnQ5KII/_Éo?MTWI7ÉpQKG7Éq	E7/IHYQ/GÉrHXZÉsKI9?;ÉtUQKEÉuFSQ6&ÉvQ7ÉwLV8Q?7I5Éx
-4/U/LQKY?57QÉy	QWI3=1/I;ÉzSQVU?EÉ{WQSKQÉ|39;É}KI9?;É~4/U/LQKY?57QÉ71?/IÉÄ7M?IÉÅ9/WEUÉÇYW/IÉÉ?S/1E7#2HXZÉÑ5ÉÖJRÉÜKUÉá[IÉàQ?Y7ÉâQSÉäWGMÉã6&Éå2#VR0\Éç8>Éé0KKUÉèE7G7IU/Q_JRÉêI/1E75Éë5E7SSÉíU7QÉìQ_ÉîU=7QI7UÉïY7IUSÉñ]U.MME7Éó	P73YÉò	TFÉô	</Q54Q?Y7ÉöR=7EEÉõZ?I5K[SÉú%%Éù79?Éû8/G?E_ÉüD7;/3_É†75KQ/É°?]WMÉ¢K3WSÉ£IUÉ§Q770R4É•4JRÉ¶?7I5Éß4/U/LQKY?57QÉ®W;/E[/Q7É©:/U7É™7IUKKÉ´	KE57I:/U7É¨MRUKMÉ≠PV0R=7EEÉÆQ77IÉØW1É∞</?CWÉ±Q54Q?Y7É≤UÉ≥9SLEWSÉ¥>G/;7ÉµI9KÉ∂U7EF/WS?É∑JÉ∏,$&%%8/G?E_D7;/3_ÉπRC_[/EC8/G?E_É∫?3ISÉªB/E?Éº7]USÉΩ_T7SU7QÉæ?3C7QÉøIKMM?]É¿W1WIUWÉ¡C7]UÉ¬D/17EÉ√79UÉƒ;/3_É≈?EWÉ∆IW]É«K3CÉ»W1WIUWÉ…3_PTD,%&)6U=7QI7UÉ E&]ÉÀ1EÉÃF%ÉÕ.T6ÉŒ/;7?/ÉœIA/QKÉ–WS?É—2<2É“7GT7SUÉ”?IUÉ‘G/M4WGMÉ’SQ6&É÷G7GU7SUÉ◊K5:PV0R=7EEÉÿU,*ÉŸH7U0R4É⁄XP.FÉ€YQ/GÉ‹6IUQ_É›J2Éﬁ68>.W5?KÉﬂ	M7I2/IKM_É‡KIUQKEÉ·Q7É‚<9SLEWSÉ„PWIU?G7É‰R=7EEÉÂQ/3E7ÉÊI;7ÉÁRÉËU=7QÉÈY7QÉÍK3ÉÎE52KI9?;ÉÏM7IRVR6ÉÌL/SSÉÓ[KQ5ÉÔ3D?IW]É=K7I?]ÉÒDV:#.DTÉÚEWSÉÛKMJRÉÙQUSÉıQK37SSKQÉˆY?57QÉ˜WMM_É¯QME7É˘ME?SUÉ˙I;É˚P7/3UJRÉ¸3YÉ˝5É˛</UÉˇG?]JRÑ S7UHXP.FÑ	YQ/G6IUQ_ÑR_SU7GÑKWQ37SÑU/QUÑ
-Q?3U6Y7IUSÑ<6DÑV0Ñ?;=UÑ	K3C_Ñ
-WI575ÑTD,%&)6U=7QI7UÑU3P[ÑWIU?G7Ñ[Ñ	R0VR#F2<2Ñ7E73U75ÑKQÑU479/WEUÑ=7EEÑWU4K[IÑ>LÑ4?S/1E75Ñ6I/1E75ÑC_[/EC8/G?E_ÑE/3C[/Q7ÑF2Ñ	LQK37SSKQÑRWM7Q>JÑR4T#.Z.2Ñ4?S/1E7#2HXZÑ62#VR0\Ñ LDV:#.DTÑ!P<V0Ñ"	R0VR#F2<2Ñ#VR0ZÑ$\<Ñ%UKMÑ&VR6Ñ'WM7Q>JÑ(_Q/=Ñ)SU7GÑ*T7SUÑ+7QÑ,FÑ-K;;E7R>LÑ.KEÑ/SÑ0MG>I9KÑ1WI7Ñ2]*(Ñ3V1WIUWÑ4F.T6Ñ5IU?UE75R0LKQUSÑ6ZÑ7/C78?]WMÑ8\Ñ9U?EÑ:WI?9KIUÑ;
-X?QUW/ERF2Ñ<K?37JY7QÑ=5Ñ>	Z/C78?]WMÑ?=/U7Y7Q:Q77IÑ@?I5K[SÑA%%ÑB[/YÑC\<ÑDW1WIUWÑE]ÑF`KQ?IÑGlÑHyÑI %ÑJ%ÑK]ÑL&ÑM]ÑN'ÑO*(ÑP,$&%%8/G?E_D7;/3_ÑQ%&)6U=7QI7UÑR*ÑS.2L>ÑT
-3?5/IU=7Q/ÑU4DR'ÑVD2ÑWTÑXF8>L/SSÑYI5QK?5ÑZMME7Ñ[.D2Ñ\P73YÑ]TFÑ^Q3=Ñ_SUQ/Ñ`W5?KÑaZ.2Ñb/EUÑcGEÑd0EW7ÑeJJTÑf]*(ÑgKKUÑhB?3C7QÑiEK/57QÑjR4ÑkS]F%ÑlUI8K3WSÑm1?IÑnE/3CE?SUÑoKS]Ñp2/IKM_Ñq7IUKSÑr8:DK3CÑs=/CQ/ÑtQ5KII/_Ñu?MTWI7ÑvQKG7Ñw	E7/IHYQ/GÑxHXZÑyKI9?;ÑzUQKEÑ{FSQ6&Ñ|Q7Ñ}LV8Q?7I5Ñ~
-4/U/LQKY?57QÑ	QWI3=1/I;ÑÄSQVU?EÑÅWQSKQÑÇ39;ÑÉKI9?;ÑÑ4/U/LQKY?57QÑÖ71?/IÑÜ7M?IÑá9/WEUÑàYW/IÑâ?S/1E7#2HXZÑä5ÑãJRÑåKUÑç[IÑéQ?Y7ÑèQSÑêWGMÑë6&Ñí2#VR0\Ñì8>Ñî0KKUÑïE7G7IU/Q_JRÑñI/1E75Ñó5E7SSÑòU7QÑôQ_ÑöU=7QI7UÑõY7IUSÑú]U.MME7Ñù	P73YÑû	TFÑü	</Q54Q?Y7Ñ†R=7EEÑ°Z?I5K[SÑ¢%%Ñ£79?Ñ§8/G?E_Ñ•D7;/3_Ñ¶75KQ/Ñß?]WMÑ®K3WSÑ©IUÑ™Q770R4Ñ´4JRÑ¨?7I5Ñ≠4/U/LQKY?57QÑÆW;/E[/Q7ÑØ:/U7Ñ∞7IUKKÑ±	KE57I:/U7Ñ≤MRUKMÑ≥PV0R=7EEÑ¥Q77IÑµW1Ñ∂</?CWÑ∑Q54Q?Y7Ñ∏UÑπ9SLEWSÑ∫>G/;7ÑªI9KÑºU7EF/WS?ÑΩJÑæ,$&%%8/G?E_D7;/3_ÑøRC_[/EC8/G?E_Ñ¿?3ISÑ¡B/E?Ñ¬7]USÑ√_T7SU7QÑƒ?3C7QÑ≈IKMM?]Ñ∆W1WIUWÑ«C7]UÑ»D/17EÑ…79UÑ ;/3_ÑÀ?EWÑÃIW]ÑÕK3CÑŒW1WIUWÑœ3_PTD,%&)6U=7QI7UÑ–E&]Ñ—1EÑ“F%Ñ”.T6Ñ‘/;7?/Ñ’IA/QKÑ÷WS?Ñ◊2<2Ñÿ7GT7SUÑŸ?IUÑ⁄G/M4WGMÑ€SQ6&Ñ‹G7GU7SUÑ›K5:PV0R=7EEÑﬁU,*ÑﬂH7U0R4Ñ‡XP.FÑ·YQ/GÑ‚6IUQ_Ñ„J2Ñ‰68>.W5?KÑÂ	M7I2/IKM_ÑÊKIUQKEÑÁQ7ÑË<9SLEWSÑÈPWIU?G7ÑÍR=7EEÑÎQ/3E7ÑÏI;7ÑÌRÑÓU=7QÑÔY7QÑK3ÑÒE52KI9?;ÑÚM7IRVR6ÑÛL/SSÑÙ[KQ5Ñı3D?IW]Ñˆ=K7I?]Ñ˜DV:#.DTÑ¯EWSÑ˘KMJRÑ˙QUSÑ˚QK37SSKQÑ¸Y?57QÑ˝WMM_Ñ˛QME7ÑˇME?SUÖ I;ÖP7/3UJRÖ3YÖ5Ö</UÖG?]JRÖS7UHXP.FÖ	YQ/G6IUQ_ÖR_SU7GÖ	KWQ37SÖ
-U/QUÖ
-Q?3U6Y7IUSÖ<6DÖV0Ö?;=UÖK3C_ÖWI575ÖTD,%&)6U=7QI7UÖU3P[ÖWIU?G7Ö[Ö	R0VR#F2<2Ö7E73U75ÖKQÖU479/WEUÖ=7EEÖWU4K[IÖ>LÖ4?S/1E75Ö6I/1E75ÖC_[/EC8/G?E_ÖE/3C[/Q7Ö F2Ö!	LQK37SSKQÖ"RWM7Q>JÖ#R4T#.Z.2Ö$4?S/1E7#2HXZÖ%62#VR0\Ö&LDV:#.DTÖ'P<V0Ö(	R0VR#F2<2Ö)VR0ZÖ*\<Ö+UKMÖ,VR6Ö-WM7Q>JÖ._Q/=Ö/SU7GÖ0T7SUÖ17QÖ2FÖ3K;;E7R>LÖ4KEÖ5SÖ6MG>I9KÖ7WI7Ö8]*(Ö9V1WIUWÖ:F.T6Ö;IU?UE75R0LKQUSÖ<ZÖ=/C78?]WMÖ>\Ö?U?EÖ@WI?9KIUÖA
-X?QUW/ERF2ÖBK?37JY7QÖC5ÖD	Z/C78?]WMÖE=/U7Y7Q:Q77IÖF?I5K[SÖG%%ÖH[/YÖI\<ÖJW1WIUWÖK]ÖL`KQ?IÖMlÖNyÖO 7%$$ÖP&-ÖQ),ÖR&-ÖSD/Y9),ÖTlÖU% @%+*,02(.#'*&4#)2%(#0-8+#2)-*'&%%)0*'ÖV)-*'&%%)0*'ÖW*'ÖX0*'ÖY2)-*'&%%)0*'ÖZ4/U/Ö[7SCUKMÖ\79?Ö]	97I;;W/I;Ö^R_SU7GÖ_VS7QSÖ`XKEWG7SÖamÖb J$Öc%Öd**$FÖe,Öf*Ög.2L>Öh55Öi?I;ÖjMME7ÖkSWSÖl/ÖmEEK[ÖnI5ÖoMME7ÖpQ7ÖqQ/_Ör0**$FÖs>JRÖt	1/S71K/Q5Öu
-SÖvE/3CE?SUÖwKKU?I;ÖxWUÖy2KGG7IUÖz3KGÖ{I9?;Ö|U/?ISÖ}QQ7SMKI5?I;Ö~4J2T^L6ÖSÖÄT4ÖÅSÖÇ5?3UÖÉK?I;ÖÑU5ÖÖ6HÖÜ7I3K5?I;Öá9?E7ÖàQG[/Q7ÖâKQÖäQKGÖãWI3U?KI/E?U_Öå=/Y7ÖçUUMÖé?SSW7SÖèC7_ÖêIK[IÖëD?SU#%ÖíE?SUÖìFÖî7GT7SU,*ÖïG/_ÖñK9ÖóLD>RTÖòEÖôKQUÖöQKM7QU_D?SU#%ÖõV0D>2ÖúME?SUÖùQ7Y7IUÖûKM7QE_ÖüQ7SUQ?3UÖ†S=/EEÖ°KÖ¢G7Ö£UQ?I;Ö§T7SU,*Ö•=?SÖ¶UÖß=/UÖ®7Ö©KÖ™V68>Ö´R0Ö¨T8#,Ö≠Y7QS?KIÖÆZ?9?LEÖØ[[[Ö∞]GEÖ±bÖ≤kÖ≥lÖ¥mÖµmÖ∂nmmÖ∑pÖ∏mÖπsÖ∫ÃÖªqÕÖºrÖΩÕÖæ#mmÖørÖ¿srÖ¡ T:Q/_Ö¬P:0Ö√ u,$&%%8/G?E_D7;/3_Öƒ%&)6U=7QI7UÖ≈*Ö∆-*-*Ö«.D2Ö»F8>L/SSÖ…MME7.D2Ö /3?5/IU=7Q/ÖÀMME7ÖÃSÖÕ/3?5/IU=7Q/G?7a7ÖŒ	2LV8Q?7I5Öœ
-4/U/LQKY?57QÖ–3KGÖ—
-/MME7?KC?UÖ“5=?I/C;Ö”<7/5SK9UÖ‘?IS/I7E_G/3Ö’4/U/LQKY?57QÖ÷5=?I/C;Ö◊Q?Y7QÖÿ6U=7QI7UÖŸY7IUSÖ⁄8/G?E_Ö€D7;/3_Ö‹?]WMÖ›Q?7I5Öﬁ4/U/LQKY?57QÖﬂ:Q77IÖ‡<7/5SK9UÖ·
->IU7EF/WS?Ö‚JÖ„,$&%%8/G?E_D7;/3_Ö‰RC_[/EC8/G?E_ÖÂ?IS/I7E_G/3ÖÊKC?UÖÁAK75GÖËD7;/3_ÖÈ?EWÖÍW3_PTD,%&)6U=7QI7UÖÎF/WS?ÖÏG?7a7ÖÌKQ;ÖÓ/3?5/IU=7Q/5Q?Y7QÖÔY/I?EE/5Q?Y7QÖS_,*ÖÒL/SSÖÚKQUSÖÛQK37SSKQÖÙY?57QÖıP7SUQ?3U6Y7IUSÖˆTD,%&)6U=7QI7UÖ˜QWÖ¯AK75GÖ˘RC_[/EC8/G?E_Ö˙F2Ö˚	LQK37SSKQÖ¸RWM7Q>JÖ˝WM7Q>JÖ˛VR0LKQUSÖˇ	Z/C78?]WMÜ 
-X?QUW/ERF2ÜY/I?EE/Ü?U-*-*Ü	Z/C78?]WMÜ=/U7Y7Q:Q77IÜlÜ v#Ü%Ü&Ü	Ü
-
-#MQK9?7EÜEÜ–ø—Ä–æ—Ñ–∏–ª—åÜl&Ü*%-**#&Ü.!ÅEU/E/!ÅIKSÜ	E;7G77IÜE;7G7?I7SÜ	2/!Ç!ÅWÜ=WI;Ü?Ia/SÜ3?Ia7IUKSÜ5/Ü7ÜEE/ÜWÜ:/G/ÜG/Ü7I7!ÅQ?3KÜEÜQ?3Ü!åC?Ü SCÜ!Q/WSUW97I#LQK9?EÜ"_Ü##–≥–∞–º–∞Ü$?Ü%;/G/Ü&G/Ü'	#MQK9?EÜ(MQK9?EÜ)7!ÅI7!ÅQ?OW7Ü*
-I7!ÄQ?3/Ü+ÅQ?3KÜ,Q?3/!ÜÜ-KÜ.Q/!äÜ/?Ü0;?KÜ1ASÜ2SÜ37SÜ4KSÜ5W/I;5WÜ6	=/QG//IÜ7?!ÄI=Ü8W?Ü9A?7Ü:
->62*%-**#&Ü;F/!ÄWÜ<	G?/KS=WÜ=
-J173I/!ÅÜ>L7Q9?EÜ?QK9?EÜ@7ÜAKÜB	MQK9?7EÜC?E?ÜDEÜEWUKI;ÜFP:0ÜG
-S!å75/!ÅÜH73/?ÜI?Y/!ÅÜJP:0ÜKa/QKS!Å3?ÜLW!àQC7ÜM
-UKI;_KI;ÜNVI?[7QS/EI_ÜOXS!å7K173I/!ÅÜP	[7IA?/IÜQ]/!ÅGÜR?S=WÜS	^E7?I7IÜTkÜUlÜVÜWŒìŒ±!ÅŒºŒºŒ±ÜXµŒΩŒπŒ∫Œø!ÅÜY∫œÅŒπÜZ–ó–∞–≥–∞–ª—å–Ω–∞Ü[û–±—â–∞—èÜ\	≥–∞–º–∞Ü]º–∞Ü^ø—Ä–æ—Ñ–∏–ª—åÜ_—Å–µ—Ä–∞—èÜ`
-◊ê◊§◊ï◊®Üa	í◊ê◊û◊îÜb	õ◊ú◊ú◊ôÜcÿ±ŸÖÿßÿØŸäÜdπÿßŸÖÜe	∫ÿßŸÖÿßÜfŸÑŸàŸÜÜg‡∏ó‡∏±‡πà‡∏ß‡πÑ‡∏õÜh	£‡∏¢‡πåÜi±‡∏á‡∏™‡∏µ‡πÅ‡∏Å‡∏°‡∏°‡∏≤ÜjπÄ‡∏ÅÜk·ÑÄ·Ö°·Ü∑·ÑÜ·Ö°Ülã·Öµ·ÜØ·Ñá·Ö°·Ü´Ümë·Ö≥·ÑÖ·Ö©·Ñë·Ö°·Ñã·Öµ·ÜØÜní·Ö¨·Ñâ·Ö¢·Ü®Üo„ÅÑ„Å£„ÅØ„Çö„ÇìÜpã„Çô„Çì„ÅæÜqè„Çô„Çå„ÅÑÜrµ„Çö„Çç„Åµ„ÅÅ„ÅÑ„ÇãÜsÇ´„Çô„É≥„ÉûÜtØ„Çô„É¨„Ç§ÜuÉï„Çö„É≠„Éï„Ç°„Ç§„É´Üv‰∏ÄËà¨ÜwÂÖâÂ∫¶Üx∫¶ÜyÊèèËø∞Üzñá‰ª∂Ü{ôÆÈÄöÜ|ÁÅ∞Ü}ÈöéÜ~≥ªÊï∞ÜËâ≤ÂΩ©ÜÄÈÄöÁî®ÜÅ w&ÜÇ&ÜÉ'ÜÑ.5K17ÜÖ	F/3?IUKS=ÜÜ	L=KUKS=KMÜágÜàhÜâlÜä y79?Üã zRKWI5Üåata>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Goldfish64 - AD1884 - Panasonic Toughbook CF-30</string>
+					<key>CodecID</key>
+					<integer>299112580</integer>
+					<key>ConfigData</key>
+					<data>
+					ARccIAEXHRABFx4hARcfAQEnHBABJx0BASce
+					EAEnH5ABJwwCATcc8AE3HQABNx4AATcfQAFH
+					HDABRx0QAUcegQFHHwEBVxzwAVcdAAFXHgAB
+					Vx9AAWcc8AFnHQABZx4AAWcfQAGnHPABpx0A
+					AaceAAGnH0ABtxzwAbcdAAG3HgABtx9AAccc
+					8AHHHQABxx4AAccfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>MacPeet - AD1984 - for_IBM_Lenovo_ThinkPad_T61_T61p</string>
+					<key>CodecID</key>
+					<integer>299112836</integer>
+					<key>ConfigData</key>
+					<data>
+					ARccEAEXHUABFx4hARcfAAFHHCABRx1QAUce
+					gQFHHwABJxwwAScdAAEnHhcBJx+QAScMAgFX
+					HEABVx0AAVcepwFXH5ABxxyAAccdUAHHHoEB
+					xx8BAbccoAG3HRABtx5EAbcfIQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>MacPeet - AD1984A</string>
+					<key>CodecID</key>
+					<integer>299112778</integer>
+					<key>ConfigData</key>
+					<data>
+					ISccECEnHUAhJx4BIScfASFHHCAhRx2QIUce
+					oSFHHwIhVxwwIVcdMCFXHoEhVx8BIRccQCEX
+					HUAhFx4hIRcfAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>MacPeet - AD1984A - Version2</string>
+					<key>CodecID</key>
+					<integer>299112778</integer>
+					<key>ConfigData</key>
+					<data>
+					ISccECEnHUAhJx4RIScfkCFHHCAhRx2QIUce
+					oSFHHwIhVxwwIVcdMCFXHoEhVx8BIRccQCEX
+					HUAhFx4hIRcfAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>AD1984A - giesteira</string>
+					<key>CodecID</key>
+					<integer>299112778</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccAAEnHUABJx4BAScfAQHHHBABxx0wAcce
+					gQHHHwEBdxwgAXcdEAF3HqYBdx+5ARccMAEX
+					HUABFx4hARcfAQFnHEABZx1AAWceFwFnH5EB
+					pxxQAacdEAGnHvcBpx9RAbccYAG3HWABtx5E
+					AbcfAQE3HPABNx0QATceHwE3H1E=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>44</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>AD1988A by chrome</string>
+					<key>CodecID</key>
+					<integer>299112840</integer>
+					<key>ConfigData</key>
+					<data>
+					ARccQAEXHUABFx4hARcfAQEnHAABJx1AASce
+					EQEnHwEBNxzwATcdAAE3HgABNx9AAUccYAFH
+					HZABRx6gAUcfkAFXHIABVx0wAVcegQFXHwEB
+					ZxwgAWcdEAFnHgEBZx8BAXccUAF3HZABdx6B
+					AXcfAQGHHPABhx0AAYceAAGHH0ABtxygAbcd
+					8QG3HkUBtx8BAccc8AHHHQABxx4AAccfQAJH
+					HBACRx1gAkceAQJHHwECVxwwAlcdIAJXHgEC
+					Vx8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Mirone - ADI-1988B</string>
+					<key>CodecID</key>
+					<integer>299112843</integer>
+					<key>ConfigData</key>
+					<data>
+					ARccEAEXHUABFx4hARcfAQEnHCABJx1AASce
+					AQEnHwEBRxxAAUcdkAFHHqEBRx8BAVccUAFX
+					HTABVx6BAVcfAQF3HHABdx2QAXceoQF3HwEB
+					txzwAbcd8QG3HkUBtx8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>5</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Mirone - ADI-1988B</string>
+					<key>CodecID</key>
+					<integer>299112843</integer>
+					<key>ConfigData</key>
+					<data>
+					ARccEAEXHUABFx4hARcfAQEnHCABJx1AASce
+					EQEnHwEBRxwwAUcdkAFHHqABRx+QAWccQAFn
+					HRABZx4BAWcfAQF3HFABdx2QAXcegQF3HwEB
+					txxgAbcd8QG3HkUBtx8BAccccAHHHfEBxx7F
+					AccfAQHXHIAB1x3xAdceVgHXHxgCRxyQAkcd
+					YAJHHgECRx8BAlcckAJXHSACVx4BAlcfAQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>7</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>0x11d4198b</string>
+					<key>CodecID</key>
+					<integer>299112843</integer>
+					<key>Comment</key>
+					<string>Custom AD1988B by Rodion</string>
+					<key>ConfigData</key>
+					<data>
+					AXccIAF3HZABdx6gAXcfkQFHHCEBRx2QAUce
+					gQFHHwIBJxwQAScdQAEnHhEBJx8BAkccEQJH
+					HWACRx4RAkcfAQFnHBIBZx0QAWceEQFnHwEC
+					VxwUAlcdIAJXHhECVx8BAccc8AHHHQABxx4A
+					AccfQAE3HPABNx0AATceAAE3H0ABpxzwAacd
+					AAGnHgABpx9AAYcc8AGHHQABhx4AAYcfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Mirone - ADI-2000B</string>
+					<key>CodecID</key>
+					<integer>299145371</integer>
+					<key>ConfigData</key>
+					<data>
+					ARccEAEXHUABFx4hARcfAQEnHCABJx1AASce
+					AQEnHwEBRxxAAUcdkAFHHqEBRx8BAVccUAFX
+					HTABVx6BAVcfAQF3HHABdx2QAXceoQF3HwEB
+					txzwAbcd8QG3HkUBtx8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>5</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Mirone - ADI-2000B</string>
+					<key>CodecID</key>
+					<integer>299145371</integer>
+					<key>ConfigData</key>
+					<data>
+					ARccMAEXHUABFx4hARcfAQEnHBABJx1AASce
+					EQEnHwEBRxxAAUcdkAFHHqABRx+QAWccUAFn
+					HRABZx4BAWcfAQF3HCABdx2QAXcegQF3HwEB
+					txygAbcd8QG3HkUBtx8BAcccYAHHHfEBxx7F
+					AccfAQHXHLAB1x3xAdceVgHXHxgCRxxwAkcd
+					YAJHHgECRx8BAlccgAJXHSACVx4BAlcfAQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>7</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC215 for HP 830 G6 for 965987400abc</string>
+					<key>CodecID</key>
+					<integer>283902485</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfmQIXHCACFx0QAhce
+					IQIXHwECFwwCASccMAEnHRgBJx6BAScfAQGX
+					HEABlx0BAZcepgGXH5kBRwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Goldfish64 - ALC221 for HP Compaq Pro 4300/Pro 6300/Elite 8300 (All Form Factors)</string>
+					<key>CodecID</key>
+					<integer>283902497</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccIAFHHUABRx4BAUcfAQFHDAIBdxwQAXcd
+					AQF3HhcBdx+QAXcMAgGnHEABpx0QAacegQGn
+					HwIBpwckAbccMAG3HTABtx6BAbcfAQIXHFAC
+					Fx0QAhceIQIXHwICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgF3DAIBpwckAhcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>MacPeet - ALC221 for HP ELITE DESK 800 G1</string>
+					<key>CodecID</key>
+					<integer>283902497</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccIAFHHUABRx4RAUcfkQFHDAIBpxwwAacd
+					EAGnHoEBpx8CAXccQAF3HQABdx4XAXcfkAG3
+					HFABtx0wAbcegQG3HwECFxxwAhcdEAIXHiEC
+					Fx8CAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC221 for HP ProDesk 400 G2 Desktop Mini PC by dragonbbc</string>
+					<key>CodecID</key>
+					<integer>283902497</integer>
+					<key>ConfigData</key>
+					<data>
+					AXccEAF3HQEBdx4XAXcfkAF3DAICFxwgAhcd
+					EAIXHiECFx8CAaccMAGnHRABpx6BAacfAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>88</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AXcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC222 aka ALC3205-CG for HP EliteDesk 800 G6 Mini</string>
+					<key>CodecID</key>
+					<integer>283902498</integer>
+					<key>ConfigData</key>
+					<data>
+					AXccEAF3HQEBdx4XAXcfkAF3DAIBhxxAAYcd
+					AAGHHqABhx+QAhccUAIXHRACFx4hAhcfAgIX
+					DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AXcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC225/ALC3253 on dell 7579 by ChalesYu</string>
+					<key>CodecID</key>
+					<integer>283902501</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccUAEnHQEBJx6mAScftwE3HAABNx0AATce
+					AAE3H0ABRxywAUcdAQFHHhcBRx+QAWcc8AFn
+					HREBZx4RAWcfQQF3HPABdx0RAXceEQF3H0EB
+					hxzwAYcdEQGHHhEBhx9BAZccQAGXHRABlx6B
+					AZcfAQGnHPABpx0RAaceEQGnH0EBtxzwAbcd
+					EQG3HhEBtx9BAdccAQHXHQAB1x5gAdcfQAHn
+					HPAB5x0RAeceEQHnH0ECFxwgAhcdEAIXHiEC
+					Fx8EAUcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>28</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Custom ALC225/ALC3253 for Dell Inspiron 17-7779 by Constanta</string>
+					<key>CodecID</key>
+					<integer>283902501</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQABJx6gAScfkAFHHEABRx0AAUce
+					FwFHH5ABlxxwAZcdEAGXHoEBlx8AAhccIAIX
+					HRACFx4hAhcfAAFHDAICFwwCAZcHJQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>30</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAIBlwcl
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Custom ALC225/ALC3253 by ChalesYu</string>
+					<key>CodecID</key>
+					<integer>283902501</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6mAScfmQG3HCABtx0AAbce
+					FwG3H5kBlxwwAZcdEAGXHoEBlx8CAhccQAIX
+					HRACFx4hAhcfAgG3DAIBRwwCAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>33</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Custom ALC225/ALC3253 for Dell Inspiron 15-5379 by fast900</string>
+					<key>CodecID</key>
+					<integer>283902501</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccUAEnHQABJx6gAScfkAFHHEABRx0AAUce
+					FwFHH5ABlxxwAZcdEAGXHoEBlx8AAhccIAIX
+					HRACFx4hAhcfAAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>90</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Andres Laptop Patch ALC230 Lenovo 310-14ISK</string>
+					<key>CodecID</key>
+					<integer>283902512</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					FwFHH5ABRwwCAZccMAGXHRABlx6BAZcfBAIX
+					HEACFx0QAhceKwIXHwQCFwwCATccUAE3HQAB
+					Nx4AATcfQAHXHGAB1x2wAdceZgHXH0A=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAIBlwcl
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Realtek ALC230 for Lenovo Ideapad 320 by maiconjs</string>
+					<key>CodecID</key>
+					<integer>283902512</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAFHDAICFxwgAhcd
+					EAIXHiECFx8TAhcMAgEnHDABJx0BASceoAEn
+					H5ABlxxAAZcdEQGXHoEBlx+T
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>20</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAIBlwcl
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Mirone - Realtek ALC233</string>
+					<key>CodecID</key>
+					<integer>283902515</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQABRx4XAUcfkAGXHCABlx0QAZce
+					qwGXHwMBpxwwAacdAAGnHqABpx+QAhccQAIX
+					HRACFx4rAhcfAwFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>3</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Custom Realtek ALC233 (3236)</string>
+					<key>CodecID</key>
+					<integer>283902515</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQABRx4XAUcfkAG3HCABtx0AAbce
+					oAG3H5ACFxwwAhcdEAIXHiECFx8BAUcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>4</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Mirone - Realtek ALC233/ALC3236</string>
+					<key>CodecID</key>
+					<integer>283902515</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQABRx4XAUcfkAGXHCABlx2QAZce
+					iwGXHwIBtxwwAbcdkAG3HqABtx+QAhccQAIX
+					HUACFx4rAhcfAgFHDAIBtwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>5</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>InsanelyDeepak - Realtek ALC233 for Asus X550LC</string>
+					<key>CodecID</key>
+					<integer>283902515</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQABRx4XAUcfmQIXHCACFx0QAhce
+					IQIXHwMBpxwwAacdAQGnHqABpx+ZAZccQAGX
+					HRABlx6BAZcfAw==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Andres ZeroCross - Realtek ALC233 for Asus A451LB-WX076D</string>
+					<key>CodecID</key>
+					<integer>283902515</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAGXHCABlx0QAZce
+					gQGXHwQBtxwwAbcdAQG3HqABtx+QAhccQAIX
+					HRACFx4hAhcfBAFHDAIBtwwCAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgG3DAICFwwC
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Custom for Realtek ALC233 for SONY VAIO Fit 14E(SVF14316SCW) by SquallATF</string>
+					<key>CodecID</key>
+					<integer>283902515</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccQAEnHQEBJx6mAScfkAGnHDABpx1QAace
+					gQGnHwMBRxwQAUcdAQFHHhcBRx+QAUcMAgIX
+					HCACFx0QAhceIQIXHwMCFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>27</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>JudySL - ALC236 for Lenovo Air 13 IML(S530-13IML)</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQEBJx6mAScfkAE3HPABNx0AASce
+					AAE3H0ABRxwQAUcdAQFHHhcBRx+QAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxwwAZcdEAGXHoEB
+					lx8BAacc8AGnHQABpx4AAacfQAG3HPABtx0A
+					AbceAAG3H0ABtwwCAdcc8AHXHQAB1x4AAdcf
+					QAHnHPAB5x0AAeceAAHnH0ACFxxQAhcdEAIX
+					HiECFx8BAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>23</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgG3DAICFwwC
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Custom for Realtek ALC3236 for Asus TP500LN by Mohamed Khairy</string>
+					<key>CodecID</key>
+					<integer>283902515</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx4AAScfQAFHHCABRx0AAUce
+					EwFHH5ABtxxAAbcdAAG3HqABtx+QAdccUAHX
+					HZAB1x5FAdcfQAIXHDACFx0QAhceIQIXHwAB
+					RwwCAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>28</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Custom by Mirone - Realtek ALC233 (ALC3236) for Asus X550LDV</string>
+					<key>CodecID</key>
+					<integer>283902515</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4TAUcfmQGXHEABlx0QAZce
+					gQGXHwABpxwwAacdAQGnHqABpx+ZAhccIAIX
+					HRACFx4hAhcfAAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>29</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
 					AwAAAA==
 					</data>
 					<key>Codec</key>
@@ -1296,10 +2013,135 @@ SÖvE/3CE?SUÖwKKU?I;ÖxWUÖy2KGG7IUÖz3KGÖ{I9?;Ö|U/?ISÖ}QQ7SMKI5?I;Ö
 					<key>ConfigData</key>
 					<data>
 					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
-					FwFHH5ABlxwwAZcdEAGXHoEBlx8EAhccQAK      $$$y'99yÜç($$yÜé'91%'37+713$-Üè&yÜê3Üë'yÜí(yÜì*Üî-Üï3Üñ7Üó)yÜò&Üô(Üö),Üõ*,Üú-Üù33Üû7Üü*y&Ü†'(Ü°,Ü¢(Ü£,,Ü§13Ü•+yÜ¶&Üß3Ü®(Ü©/&Ü™/y)7Ü´1y%,Ü¨((Ü≠*+*ÜÆ-ÜØ7'3Ü∞3y',,Ü±3&Ü≤5y%,Ü≥9*Ü¥&Üµ3Ü∂++*Ü∑7y%),Ü∏),,,Üπ9yÜ∫((Üª%'y),,,Üº ($&y&(ÜΩ/Üæ7Üø'y&Ü¿ ($)y,3 ($1yÜ¡3yÜ¬,Ü√5yÜƒ(Ü≈,Ü∆3Ü«7y&Ü»(Ü…*Ü ,ÜÀ/ÜÃ3ÜÕ7ÜŒ9yÜœ%Ü–&Ü—'Ü“(Ü”)Ü‘,Ü’/Ü÷1Ü◊3Üÿ%$yÜŸ),Ü⁄*Ü€1,Ü‹%y1Ü›&y$*Üﬁ&,Üﬂ,Ü‡'y$5Ü·(7Ü‚15Ü„(y$/,Ü‰&ÜÂ*),ÜÊ*y)((ÜÁ #$$$y $$$$y &$$$y '($$yÜË,%yÜÈ(ÜÍ ('99y($&yÜÎ(ÜÏ*ÜÌ,ÜÓ'y3ÜÔ )'99y($$yÜ,ÜÒ%y3ÜÚ *'99y($$yÜÛ,ÜÙ%y3Üı +$$$y ,($$yÜˆ,%yÜ˜(Ü¯ .$$$y '99yÜ˘($$y,Ü˙&y7Ü˚'y&Ü¸'Ü˝(Ü˛	 /($7y),,,Üˇ 0($)y,3! 1($$yá  2'99y"($$yá,á%yá	 3(%'y),,,á	 5(%'y),,,á 9($$y'91%'37+713$-á >'99yá($$yá%y(#,$3á	&yá
- D$$$yá'99yá F($)y(á*y$3á&3á*3á+y$%á,á&)á'&á++á1)á9%á,y$/,á%$,á&7,á,*á,,á-(á,á7,,á-y$%á '(á!%*3á"&((á#/(á$''á%,3á&1,á')%á(/(á)-33á*/$3á+',á,3(á-1%(á.5,(á/9$(á0%á1'(á2/y$,/á37á4/á5%(&á6/á7*á8&3/á9'&(á:1á;($*á<%*á=+3á>1(á?+,(á@-*áA5áB,-/áC-&/áD7&áE/,&áF/7áG3(áH1&&áI,áJ5&&áK7&áL7-/áM9((áN1y$%-áO/áP%,%áQ&')áR/5áS'*)áT-7áU(+áV))5áW*-7áX+1áY,%,áZ//+á[1-5á\/+á]5á^,1á_7%á`+*áa3y$%+,áb&(,ác,3ád-3,áe/5áf9,ág%%(,áh,'ái1'áj3,,ák&&),ál1ám'%,án(*,áo*5áp7áq+ár1(,ás9/,át'$'áu-,áv,),áw*áx9áy/9áz9*,á{($&,á|,,á}'á~9,á)áÄ+1,áÅ5,áÇ/',áÉ7(áÑ)$*,áÖ'&,áÜ)(,áá,&áà,áâ),áä*$/áã%3,áå&'áç1-áé3%áè77áê+%/áë)*áí-(áì7(áî97,áï,$&áñ%+,áó+%áò9,áô-3áö3áõ-&-,áú*+áù/+áû5',áü9),á†/(/,á°3-,á¢1)3,á£7',á§+,á•59+á¶5y&57,áß($%á®-5,á©,á™$%á´(1,á¨/5,á≠5&,áÆ-'%,áØ7+(3á∞7y$$$,á±%&3*á≤///á≥&$$,á¥+5,áµ(á∂)+/7á∑,&3á∏3+7áπ,á∫9,*áª*áº$$,áΩ+)+&áæ,-&3áø3&3á¿-$*7á¡*7á¬7%3á√/$'áƒ319(á≈7))/á∆9(7á«9+&/á»9y$$11á…&/-á %3)3áÀ&%%&áÃ-&7áÕ'595áŒ(+9áœ+%)&á–9+1á—/á“5%1á”3)á‘7131á’%$y)$'5,á÷/%9á◊1%(,áÿ%y/7)3,áŸ&y$)&+*á⁄&,á€+3)+*á‹'y$5á›(5/',áﬁ119+/áﬂ(y$/%&(á‡%9,*,á·*),á‚*y)'7*$/á„
- H(%/y$$$$&á‰ L($1y'-7áÂ7y)3+7áÊ,áÁ N'99yáË P($&yáÈ'yáÍ(yáÎ R$$$yáÏ'99yáÌ V$$$yáÓ'99yáÔ X($)y&á*y&áÒ+y&3áÚ Z($)y&áÛ*y&áÙ+y&3áı \($&y3áˆ(y-á˜3á¯)y&á˘(á˙*,á˚-á¸33á˝7á˛*y',áˇ(à +yà&à(à/&à ^($&y3à(y*à-à3à7à	)yà
-&à(à),à-à7à*y'(à13à+yà&à `($*y,,à/y)7à1y%,à((à*+*à-à7'3à3y',,à3&à5y%,à9*à&à3à ++*à!7y%),à"9yà#((à$ g'99y%($$yà%,à&%yà' i'99y&($$yà(,à)%yà* j$$$y' l$$$y( m$$$y) n$$$y*'99yà+($$yà,,à-&y7à.'yà/&à0'à1(à2 o'99y+($%yà3&yà4(à5*à6,à7'y3à8 p'99y,($$yà9,à: q'99y- r($-y79.9à;-(à</à= s($-y79/9-(à>/à?>MacPeet - ALC236 for Lenovo Ideapad 500-15ISK</string>
+					FwFHH5ABlxwwAZcdEAGXHoEBlx8EAhccQAIX
+					HRACFx4hAhcfBAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>3</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Jake Lo - Realtek ALC236</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6gAScfkAE3HPABNx0AATce
+					AAE3H0ABRxwwAUcdAQFHHhABRx+QAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxwgAZcdMAGXHosB
+					lx8BAacc8AGnHQABpx4AAacfQAG3HPABtx0A
+					AbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHEACFx1AAhceKwIX
+					HwECFwwCABcgAAAXIXIAFyJrABcjEA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC236 for Lenovo Xiaoxin Air 14IKBR by AlexanderLake</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6gAScfkAFHHEABRx0BAUce
+					EAFHH5ABRwwCAZccIAGXHRABlx6LAZcfAQIX
+					HFACFx0QAhceKwIXHwECFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Custom - Realtek ALC236 for Lenovi Air 13 Pro by rexx0520</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccAAEnHQEBJx6mAScfkAFHHBABRx0BAUce
+					EAFHH5ABdxzwAXcdAAF3HgABdx9AAYcc8AGH
+					HQABhx4AAYcfQAGXHCABlx2QAZceqwGXHwAB
+					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
+					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAhccMAIXHUACFx4rAhcfAAFH
+					DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>erinviegas - ALC236 for Lenovo Ideapad 330S</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccAAEnHQEBJx6gAScfkAFHHBABRx0BAUce
+					EAFHH5ABRwwCAZccIAGXHRABlx6LAZcfAAIX
+					HDACFx0QAhceKwIXHwACFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAIBlwcl
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>MacPeet - ALC236 for Lenovo Ideapad 500-15ISK</string>
 					<key>CodecID</key>
 					<integer>283902518</integer>
 					<key>ConfigData</key>
@@ -1335,27 +2177,133 @@ SÖvE/3CE?SUÖwKKU?I;ÖxWUÖy2KGG7IUÖz3KGÖ{I9?;Ö|U/?ISÖ}QQ7SMKI5?I;Ö
 					H5ABlxxAAZcdEQGXHoEBlx+T
 					</data>
 					<key>FuncGroup</key>
-					<i,      #'7'y3'9'*,0(y$&'3à@
-(%3y&9/&+,àA-/5*,àB-àC/(%+àD5àE	*3',àF
-5*àG9*5,àH9')*àI
-*,àJ'(-(%,àK1'/)àL)3&%%,àM)3(&àN
-/)àO,&àP1/(àQ'$551+)$95,àR	7%*àS	9,1àT5àU
--(àV+àW3*)(1-5,2
-395+&5,5,13
-739*%&394
-5$(-13',*5àX
-)&àY)&-+,35àZ*3,1$-*à[+'/%,9,à\-)))15à]'7y999999991$9/)5  (%3y)335$(-)9*+&36797/73%,)+&à^
-)&%-'-*7à_1-$'&&à`($5&+)*àa%1/7/(àb1,$&àc/$/àd*$179,àe9%&àf5%)/àg/(3àh7//*ài9*&,àj/7àk5,àl+&3àm53àn-,,ào%$3*,àp9,3àq%19,àr9&7às&$(/àt3'àu9-àv'1&&àw()*&àx)9//ày,5'7-&àz(&&3à{)$'(à|'9à}+*,à~*$(/à+*/3àÄ,7-,àÅ/'%/àÇ+5&àÉ1+&àÑ,53àÖ1*/àÜ3,3/àá5*-(àà/7,àâ7%&%*àä/3,)%/àã1àå$*3àç5/àé(5,àè)$&àê*%,àë-(7àí)*àì-àî/)/àï+3àñ1(7àó51&àò3%)(àô7(%/àö--&àõ/3àú157àù31,àû9+$/àü-&&à†/,&à°1-à¢5&à£317à§7-3à•5$)3,à¶%--3àß'&&*à®(',à©9,*à™(&3(à´1*&à¨9/(à≠)%/3àÆ&'3àØ-à∞(*(à±+),à≤)(//7%,à≥1)'7à¥1/&àµ9,à∂3&5*à∑**à∏1,7àπ1%)933à∫*('àª59(àº+,+,àΩ,',(àæ/7),àø1&(*à¿(+,à¡,77à¬/5(à√7+*àƒ3*+7à≈-*à∆/,7à«5$-7à»%)*à…,*/à /+&àÀ11/àÃ7(/3àÕ,33àŒ9*-,àœ9(à–&&(57à—*(*à“'1*à”3$,à‘()'(à’+&(à÷*3+7à◊,)1&àÿ-%/àŸ1à⁄3+/à€,&à‹3*à›5&&àﬁ/+$(àﬂ1)&3à‡5'(à·7(à‚3&$(à„5)+3à‰7*7àÂ9-$&àÊ'$&%7àÁ/(*àË%557àÈ9-&àÍ&*$*àÎ,*3àÏ''5/àÌ(%9&àÓ'+(àÔ++-7à,%$7àÒ3(3àÚ+7àÛ5'*àÙ-),/àı-97àˆ/,3à˜/)/à¯,1(à˘1/5(à˙33,7à˚5%(à¸-&à˝7'&à˛5%33àˇ7'â ($'&7â51/â%3&7â59(â&&57â*/&â33&â'%9,â(3&â	-%(â
-1$(â5/&â7(&â($)3â&9&â(7/â/1*â*)-7â/93â+$93â&,7â)*â-,â7/*â9(*â,-1â3-3â-'&â(),â*13â+%,â,-/â 9&',â!)$(3(â",9*â#9-**3â$,-7â%1,â&7/â'/$*â(+3â)1&(â*5+//â+9$+â,(+,â-*$/â.53â/-*/â0,3â13(3â23$'5+/â3(*,(â4/5â5)(),â67%13)7â73$,,â8%-(â9&%/â:*+7â;1(*â<3'&â=5&)&â>+'3â?,*/â@-$&âA)*âB/7,âC7(âD9+*âE7*+/âF97âG&$%13âH-//âI%%/&âJ&)*3âK9+*--,âL/1*âM9,âN15&âO+*'7âP+'/âQ,(*âR-(&âS/7*âT1')3âU*$,)3//âV*'-7âW,,âX-)âY*/âZ31/â[-$,-/â\9-7â]%$33â^%%*â_)/â`'/(âa--(âb1(âc'&'/$,âd1,&âe5$(âf()9*âg7âh3-+-7&âi+'9*93&âj-*'(/,âk/3&(9*âl %#'7'y3'9'*,8(y$&'3âm(%3y&9//(%+ân5âo	*3',âp
-5*âq99'*,âr'(-1'/)âs)3&)3(&ât
-/)âu'$7%*âv	9,1âw5âx35$)&ây -(%3y&9/&+,âz9*5,â{'(-(%,â|)3&%%,â}1/(â~3-5,â'7y999999991$9/)9 4(%3y)3&)3(&âÄ'$9-(âÅ35$)&âÇ)&-+,35âÉ+-)))15âÑ 6(%3y&9/&+,âÖ9*5,âÜ)3&%%,âá1/(âà3-5,ââ'7y999999991$9/):
- 8(%3y)3&,&âä3*)(; :(%3y)3'$551+)$95,âã3395+&5,5,1<
-739*%&39=
-5$(-13',*5âå
-))&-+,35âç*3,1$-*âé+'/%,9,âè-)))15âê <(%3y)3&1/(âë3-5,> h#'7'y3'9'*,?(y$&'3âí(%3y'(-1'/)âì)3&)3(&âî
-/)âï'$7%*âñ	9,1âó5âò35$)&âô k#'7'y3'9'*,@(%3y'(-1'/)âö)3&)3(&âõ'$7%*âú	9,1âù5âû
--(âü+â†35$)&â° t#'7'y3'9'*,A(%3y&9/-/5*,â¢-â£/(%+â§5â•99')*â¶'(-1'/)âß)3&)3(&â®'$7%*â©	9,1â™5â´
--(â¨+â≠35$)&âÆger>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>17</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAIBlwcl
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC236 for Lenovo LEGION Y7000/Y530 by xiaoM</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxwgAUcdkAFHHhcBRx+QAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxwgAZcdEAGXHosB
+					lx8BAacc8AGnHQABpx4AAacfQAG3HPABtx0A
+					AbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHBACFx0QAhceKwIX
+					HwECFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>wolf606 - ALC236 for Lenovo Ideapad 500-14ISK</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQABJx6gAScfkAGXHDABlx0QAZce
+					gAGXHwABRxxQAUcdAAFHHhcBRx+QAUcMAgIX
+					HGACFx0QAhceIQIXHwACFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>19</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>RodionS - ALC236 for Lenovo Ideapad 320s 14ikb</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccAAEnHQEBJx6mAScfkAFHHBABRx0BAUce
+					EAFHH5ABRwwCAZccIAGXHRABlx6LAZcfAAIX
+					HDACFx0QAhceKwIXHwABRwwCAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>16</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>volcbs - ALC236 for Lenovo Ideapad 510s 14isk (modified from MacPeet's)</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQABJx6gAScfkAFHHFABRx0AAUce
+					FwFHH5ABRwwCAZccMAGXHRABlx6AAZcfAAIX
+					HGACFx0QAhceIQIXHwACFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>36</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAIBlwcl
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC236 for DELL-5488 by Daggeryu</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
 					<key>ConfigData</key>
 					<data>
 					ASccQAEnHQEBJx6mAScfkAE3HPABNx0AATce
@@ -1383,6 +2331,32 @@ SÖvE/3CE?SUÖwKKU?I;ÖxWUÖy2KGG7IUÖz3KGÖ{I9?;Ö|U/?ISÖ}QQ7SMKI5?I;Ö
 					AwAAAA==
 					</data>
 					<key>Codec</key>
+					<string>ALC236 for Dell ICL for Lorys89 by Vorshim</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQEBJx6mAScfkAFHHEABRx0BAUce
+					FwFHH5ABRwwCAZccQAGXHRABlx6nAZcfAAIF
+					AEUCBNaJAhcdEAIXHiECFx8BAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>69</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgGXByQCFwwC
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
 					<string>ALC236 for HP-240G8 by 8DireZ3</string>
 					<key>CodecID</key>
 					<integer>283902518</integer>
@@ -1390,10 +2364,38 @@ SÖvE/3CE?SUÖwKKU?I;ÖxWUÖy2KGG7IUÖz3KGÖ{I9?;Ö|U/?ISÖ}QQ7SMKI5?I;Ö
 					<data>
 					AUccEAFHHQEBRx4XAUcfkAFHDAICFxwgAhcd
 					EAIXHiECFx8EAhcMAgEnHDABJx0BAScepgEn
-					H5ABlxxAAZcdEAGXHoEBlx8E
+					H5ABlxxAAZcdEAGXHoEBlx8EATcc8AE3HQAB
+					Nx4AATcfQAHXHPAB1x0AAdceAAHXH0ABhxzw
+					AYcdAAGHHgABhx9AAacc8AGnHQABpx4AAacf
+					QAG3HPABtx0AAbceAAG3H0ABtwwCAecc8AHn
+					HQAB5x4AAecfQA==
 					</data>
 					<key>FuncGroup</key>
-					<integQ      â∑Câ∏ %âπH6X.â∫ 1âªWIUWâºF.T6âΩ 4âæ'âø#28â¿ 6â¡8>â¬ 7â√9?R7QY?37SâƒWMMKQUâ≈ ;â∆/L/SST=QKW;=â« >â»R3/E7â… Eâ UQ/âÀ IâÃDâÕ1EK3C8S2KII73UâŒ?3K572KEE/U?KIâœ[7QS/EI_â–MQKU73UKQâ—U?UE75E Mâ“5/U7â”4/U/<W1â‘HXP.Fâ’RF0>JRâ÷FK57â◊ RâÿâŸâ⁄0â€LKQUSâ‹â›Zâﬁâﬂ/C78?]WMâ‡â·\â‚â„ Sâ‰âÂâÊ1J[I7QS=?MâÁ7</Q5[/Q78EK[2KIUQKEâËFG?KâÈ	L3?P1>KâÍP/[VW?56I3K5?I;âÎQâÏ>IU7Q9/37T=7G7âÌSâÓ TâÔ8#,â UâÒ?EâÚ VâÛ>4âÙ Wâı?56I3K5?I;âˆAAbcc8AG3HQABtx4AAbcfQAHXHEUB1x0b
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>55</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAIBlwcl
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC236 for Lenovo Air 13 IWL by DalianSky</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ATcc8AE3HQABNx4AATcfQAFHHBABRx0BAUce
+					FwFHH5ABRwwCAYcc8AGHHQABhx4AAYcfQAGX
+					HDABlx0QAZcegQGXHwQBpxzwAacdAAGnHgAB
+					px9AAbcc8AG3HQABtx4AAbcfQAHXHEUB1x0b
 					AdceZgHXH0AB5xzwAecdAAHnHgAB5x9AAhcc
 					HwIXHRACFx4hAhcfBA==
 					</data>
@@ -1412,10 +2414,28 @@ SÖvE/3CE?SUÖwKKU?I;ÖxWUÖy2KGG7IUÖz3KGÖ{I9?;Ö|U/?ISÖ}QQ7SMKI5?I;Ö
 					<key>AFGLowPowerState</key>
 					<data>
 					AwAAAA==
-					</d       ä ääää $ääää$ää$$$ä%*äL6#4,ä %ääää )&$$ä! &ä"ä#ä$$$ä%%&ä&,ä' 'ä(ä)	%#<6#6$-)ä*
-#BPä+*$$Cä,9ä-U=ä. (ä/ä0$$ä1%ä2 )ä3ä4	%#06#6$-+ä5
-<6#6---#BPä6 *ä7ä8$ä9&ä:%&%*ä; +ä<ä=ä>$#<4'Lä?%ä@F\#:/G?I;äA
-\#:/G?I;äBV4'#28äC$*,02(.#'*&4#)2%(#0-8+#2)-*'&%%)0*'äD6BäE ,äFäG('&$$äH 4äI/U/äJ 8äKäL FäM/SCäN HäO6X.äP\N\0[äQ ]äRäSt>
+					</data>
+					<key>Codec</key>
+					<string>Realtek ALC245 for Ienovo by soto2080</string>
+					<key>CodecID</key>
+					<integer>283902533</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAFHDAICFxwgAhcd
+					EAIXHiECFx8EAhcMAgGXHEABlx0QAZcegQGX
+					HwQ=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>
@@ -1435,18 +2455,58 @@ SÖvE/3CE?SUÖwKKU?I;ÖxWUÖy2KGG7IUÖz3KGÖ{I9?;Ö|U/?ISÖ}QQ7SMKI5?I;Ö
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>12</integer>
-					<key>WakeConfigData</∞       äùäû $äü%&ä† &ä°$,42,ä¢',22,ä£2,,2,ä§ 4ä•"%646$)#',2+#(.*.#-22*#(022.,0',2%(ä¶!84.$&#',2+#(.*.#-22*#(022.,0'$%$&äß 8ä®ä© Xä™7Q?9?3/U?KIä´a>
+					<key>WakeConfigData</key>
+					<data>
+					AXcMAgIXDAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
-					<string>lunjielee - Realtek ALC245 for HP ≥        ä¨ ä≠äÆ #%äØ'*$$C9ä∞ $ä±ä≤$$$ä≥ )ä¥äµ +ä∂$ä∑ ,ä∏äπ&-ä∫ -äª*'&%%)0*'äº .äΩ-+äæ-8\äø\ä¿ :ä¡1?Uä¬ Bä√^-^^@L+NFäƒFx8DAhcMAg==
+					<string>lunjielee - Realtek ALC245 for HP Omen 2020</string>
+					<key>CodecID</key>
+					<integer>283902533</integer>
+					<key>ConfigData</key>
+					<data>
+					AXccEAF3HQEBdx4XAXcfkAGXHDABlx0QAZce
+					gQGXHwMCFxwgAhcdEAIXHiECFx8DAhcMAg==
 					</data>
 					<key>FuncGroup</key>
-					<integer>1</U eger>  ä’ ä÷ä◊ 0äÿ$-äŸ 2ä⁄"('*%%$#.0&.#(000#.,,$#86(%--)2-8,&ä€ Nä‹Fä›				<data>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+					<key>WakeConfigData</key>
+					<data>
 					AhcMAg==
-					</datò 					  äﬁ äﬂä‡ä· $ä‚ä„ä‰&%%8/G?E_D7;/3_äÂäÊ.8äÁ %äËäÈ&)6U=7QI7UäÍäÎ *äÏäÌäÓäÔ ,ä+'äÒ2,äÚ -äÛ+äÙey>
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC255</string>
 					<key>CodecID</key>
-					<integer>28390254integ äıäˆ #Lä˜20ä¯ +ä˘ä˙$.#4R'Lä˚F\#:/G?I;ä¸ -ä˝ä˛#.äˇ46DV\6ã VEUQ/ã$8\ã	#:.F>H:ã.#V4'ã-#BPã8\ã\ã 4ãP'#8ã	DH(ã
-4#?8ã?#DH(ãZã#'DH(8ãT8ã RãP.ã#'ãD#8ã ^ã^@L+NFãakeConfigData</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
+					FwFHH5ABlxwwAZcdEAGXHosBlx8AAhccUAIX
+					HRACFx4rAhcfAgFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>3</integer>
+					<key>WakeConfigData</key>
 					<data>
 					AUcMAg==
 					</data>
@@ -1456,15 +2516,61 @@ SÖvE/3CE?SUÖwKKU?I;ÖxWUÖy2KGG7IUÖz3KGÖ{I9?;Ö|U/?ISÖ}QQ7SMKI5?I;Ö
 				<dict>
 					<key>Codec</key>
 					<string>ALC255 for Dell Optiplex7060/7070MT(Separate LineOut)</string>
-1		<ke ãããã !ÅãEãU/E/!ÅIKSã #4ãR'Lã -ã+ã -8\ã!\ã" .ã#.ã$...ã%..ã&
-........ã'LDã( 2ã)ã*L>ã+ã, 3ã-ã.37E7Q/U?KIã/	SSZ?5U=ã0	?5/IU=7Q/ã1
-ã2U?Y/U7<M7URWMMKQUã3 4ã4ã50:ã64Pã7DR'ã8ã9 5ã:ã;5ã<?I;ã=K17ã>Y?S787/UWQ7Sã? 8ã@ãA ?ãBQLKQU0Q3GH>2ãC DãDãE2ãFãG,-+ãHDãITãJãK EãLãM57QãN	;7G77IãOEãP;7G7?I7SãQK[P7EK3/U?KI0EK3CãR
-R7U479/WEUãS FãTãU4ãV8>L/SSãWãX IãYãZ5QK?5ã[_ã\ Jã]PVRã^ Lã_8Rã` Mãaãb62>4ãc9STQ?GT?G7KWUãdME7ãeãf.D2ãgãhW5?Kãi
-0KKULKE?3_ãj2MWLG29;DK3Cãk471W;ãl	DK;ãm6;&>I9KãnY7IUão8Q/G71W997Q>I9Kãp	:MW0/QSãq	<KUB7_Sãr>G/;72KIY7QS?KIãs;(X7Q?9?3/U?KIãtIMWUãuB7_F/MãvF7GKQ_F/MãwJRãxL/I?3ãyP73YãzU3P/Gã{
-R73WQ70KKUã|G3>Kã}TFã~VM5/U7ãS7Q>IU7Q9/37T=7G7ãÄ\3MG29;DK3CãÅ	6]UQ/FSQSãÇ
-8KQ370KKSUãÉ OãÑW/IU?/6U=7QI7UãÖ QãÜãá3=ãàãâãä;WG7IUSãã SãåãçS?SUãé:/?IãèUQ/ãêWSãë Uãí
-UQ?1WU7Sãì Wãîãï5?1E7:/?IãñKãóãòãô.SS?SUãö2K573ãõ47Y?37ãúJWUF/SCãùRWMMKQUãûXKEWG7ãü
-40ã†	U=P7SU/QUã°Kã¢G/U?3ã£	]?E?/Q_ã§ Yã•K?5PWIU?G7479Q/;ã¶ Zãßã®.2ã©ã™ã´ [ã¨;...ã≠eger>1</integer>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAGXHEABlx0QAZce
+					iwGXHwIBtxwgAbcdEAG3HgEBtx8BAhccMAIX
+					HRACFx4rAhcfAgFHDAIBtwwCAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>66</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgG3DAICFwwC
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Codec</key>
+					<string>ALC255, Dell Optiplex 7040 MT</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					AgUARQIE1IkBJxzwAZccQAGXHRABlx6nAZcf
+					kA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+					<key>WakeConfigData</key>
+					<data>
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Realtek ALC255 for minisforum U820 by DalianSky</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					AbccMAG3HQEBtx6gAbcfkAGXHCABlx0RAZce
+					gQGXHwICFxxAAhcdEQIXHiECFx8CAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>82</integer>
 					<key>WakeConfigData</key>
@@ -1493,10 +2599,41 @@ SÖvE/3CE?SUÖwKKU?I;ÖxWUÖy2KGG7IUÖz3KGÖ{I9?;Ö|U/?ISÖ}QQ7SMKI5?I;Ö
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>86</integer>
-					<key>WakeCË igDat  ãÆ ãØã∞ 3ã±U?Y7#3KI9?;ã≤ 5ã≥5Q7SSã¥ES'ãµ 9ã∂U7Qã∑ ;ã∏5MGK5ãπ Eã∫ãª3?5ãºEK[ãΩUãæ Gãøã¿
-9?M/SS17U/ã¡Eã¬ã√ Iãƒ5ã≈ Mã∆ME7ã« Qã»7ã…;Sã Q/_ãÀ SãÃãÕ YãŒ/?E/1E7ãœ</key>
-					<intWr>283 ã–ã— $ã“-ã” 'ã‘)$#LDVRã’ *ã÷ã◊'ãÿ*$FãŸ /ã⁄3C;QKWI52KEKQã€QR?a7ã‹Sã›S7ãﬁãﬂRC?Mã‡W5P/U7ã· 6ã‚#6$-+ã„ >ã‰JRãÂ	X7QS?KIãÊ EãÁãË/3CE?SUãÈ.MME7VM5/U7ãÍ7SSJY7QQ?57ãÎK3CãÏãÌW7ãÓ JãÔJTã]*(ãÒ KãÚãÛKCãÙSUãıUãˆã˜ã¯7Qã˘R?;I/UWQ7ã˙B?3C7Qã˚EK/57Qã¸FK57Eã˝LKE?3_ã˛R3=7G7ãˇ	7QY?37Så 47E/_åX/QPKWU?I;å Qå3GH>2å Rå4å Såå]F%å	å
- Tå87/UWQ78E/;Så UåI8K3WSå Wå?EU?Iå:Q/M=?3SåI5E7L/U=å	QSUFK57å [åå/key>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Codec</key>
+					<string>Realtek ALC255(3234) for Dell Optiplex series by Heporis</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					AScc8AEnHQABJx4AAScfQAFHHBABRx0BAUce
+					FwFHH5ABdxzwAXcdAAF3HgABdx9AAYcc8AGH
+					HQABhx4AAYcfQAGXHEABlx0QAZceiwGXHwIB
+					pxzwAacdAAGnHgABpx9AAbccIAG3HRABtx4B
+					AbcfAQHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAhccMAIXHRACFx4rAhcfAgFH
+					DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>
 					AwAAAA==
 					</data>
@@ -1513,21 +2650,112 @@ SÖvE/3CE?SUÖwKKU?I;ÖxWUÖy2KGG7IUÖz3KGÖ{I9?;Ö|U/?ISÖ}QQ7SMKI5?I;Ö
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
-					<integeª 3</in åå %åå /åS71K/Q5åSå 7åå9KQ7å ?å Iå! Eå"å#/3CE?SUå$å%	å&75å'KS]å(å) Kå*KUå+#/Q;Så,?I;å-Så.U=å/ Wå0Uå1 _å2å3>
+					<integer>13</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<stri√Realt å4å5å6 )å7-*'&%%)0*'å8 ,å9å:,2,å; /å<å=!Çå>!ÅWå?1E7å@3=7åAIKM_åBåC 2åD,åE 4åFX^åG 7åHIUKSåI 8åJåKåL:DK3CåM 9åN;DK3CåO =åPåQåR/CQ/åSI;7åTåU	Q5KII/_åV73CSWGåW?G7åXMTWI7åYQKG7åZWI;å[ ?å\Ia/Så] Eå^å_/SSå`
-7/IHYQ/Gåa	QR3Q77Iåb
-JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2TPDål Kåmån573åo	EE/U?KIåpKQåqGG7IUårM/;7åsME7U7E_åtI9?;åuI73Uåv4Q?Y7QSåwSKE7.UUQ?1WU7Såx8KIUåy:KMåzFK57å{U7IUSå|QKEå}å~E7QåFSQ6&åÄ	Y7QS?KIåÅQ7åÇåÉWIUåÑ LåÖåÜVåá8Q?7I5åàåâ4/U/LQKY?57Qåäåã MååW>I9Kåç?5%4/U/åéF/SCåèLG29;DK3Cåê PåëJRR<.>Påí Qåì
-WI3=1/I;åî SåïQVU?Eåñ WåóåòQQ7IU2MW>I9KåôSKQåöSUKGåõ47E/_SåúB7QI7EåùF7GKQ_åûL3?R7Q?/E47Y?37åüRE?57å†	F0>JR:W?5å°/key>
+					<string>Realtek ALC255 Gigabyte Brix BRI5(H) by Najdanovic Ivan</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQEBJx6gAScfkAGXHCABlx0RAZce
+					gQGXHwICFxxAAhcdEQIXHiECFx8CAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>InsanelyDeepak - Realtek ALC255_v2</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
+					FwFHH5ABdxwwAXcdAAF3HgABdx9AAdccQAHX
+					HQAB1x5wAdcfQAIXHFACFx0QAhceIQIXHwIB
+					RwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
 					<integer>17</integer>
-					<key>WakeConfig‰ a</ke å¢å£å§ /å•Iå¶S7åß
-#S7IS?U?Y7å®WS7å© 9å™;å´ =å¨/I;7å≠?MåÆ ?åØ
-Ia7IUKSå∞ Eå±K3Cå≤ Kå≥å¥GåµI9?;å∂å∑å∏SKE7åπU/?ISå∫QKEåªE7QåºQQ7SMKI5?I;åΩ SåæQ#/3U?Y7#3KI9?;åøek ALC255 for Aorus 7</st å¿å¡ ,å¬å√ /åƒå≈U/å∆å«å»<W1å…å 
-LQKY?57QåÀåÃ7åÕ 0åŒåœ 2å–,å— 6å“DV\6å” 7å‘å’1?/Iå÷W;å◊åÿDK;åŸ7M?Iå⁄9/WEUå€å‹å›0/3C;QKWI52KEKQåﬁ?I7SåﬂQ/;å‡E/_å·Så‚7U7å„Eå‰SCUKMåÂ	U73U2/1E7åÊY?37åÁåË>I9KåÈ
-LQKM7QU?7SåÍQUW/E?S7FG?KåÎW/IåÏ >åÌR.0D6åÓ ?åÔåQ73U:KMP7I57Q?I;åÒS/1E7åÚ#2HXZåÛåÙ5åıåˆ>KF/MM7Qå˜F/MM?I;å¯D?IC75?U@7UU?SKIå˘PU32=73CSWGå˙R73WQ?U_LKE?3_å˚	?I;E7VS7Qå¸Så˝X/Q?/1E7ZQ?U7å˛Z/U3=4K;åˇ3/Q5<?17QI/U7F/Mç 	KII73U<5/çC>3KISçME/_ç47E/_çD7Y7EçPKU/U?KI>I68>çYç Dç'&)ç	,)ç
- Gç;DK/5?I;ç Jçç2T^L6çRç Kççç;çUçW1E72E?3CT?G7KWUç[Iç Pç'#8çDH(ç4#?8ç?#DH(çZç#'DH(8çT8ç Qç ç!?Y7ç"Qç#Sç$ç%ç&Sç' Rç('Lç) Sç*ç+ Tç,4ç-Sç. Wç/ç0GG_LK[7QF/I/;7G7IUç1Mç2ç3 [ç47EE2E?3CT?G7KWUç54KW1E72E?3CT?G7KWUç6P/5?WSç7r>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>DuNe - Realtek ALC255 for Aorus X5V7</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
+					FwFHH5ABtxwhAbcdAAG3HhcBtx+QAXccMAF3
+					HQABdx4AAXcfQAHXHEAB1x0AAdcecAHXH0AC
+					FxxQAhcdEAIXHiECFx8CAaccYAGnHRABpx6B
+					AacfAgHnHHAB5x0QAeceRQHnHwIBRwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Realtek ALC255 for Dell 7447 by was3912734</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6mAScfkAFHHEABRx0BAUce
+					FwFHH5ABRwwCAXccQQF3HQEBdx4XAXcfkAGX
+					HCABlx0RAZceiwGXHwIB5xxgAecdEQHnHkUB
+					5x8CAhccUAIXHRACFx4rAhcfAgIXDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>20</integer>
 					<key>WakeConfigData</key>
@@ -1570,10 +2798,52 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					</data>
 					<key>Codec</key>
 					<string>Realtek ALC255 for Acer Aspire A515-54G</string>
-					<key>CodecI— key>
- ç8ç9 /ç:ç;ç<U/ç= 7ç>ç?ç@1W;çA9/WEUçBE?Y7Q_çCE/çDU7QG?I7SçEY?37çF#?5çG ?çH3UçIS/1E7çJME/_çK KçL?I;çMW1E7çN UçO5çP WçQçRçSGG_çTQ?I;çUup</key>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6mAScfkAFHHCABRx0RAUce
+					FwFHH5AB1xwxAdcdAAHXHoAB1x8AAhccQAIX
+					HRACFx4hAhcfAg==
+					</data>
+					<key>FuncGroup</key>
 					<integer>1</integer>
-				ey>La çVçW $çX-)çY#BPçZ+ç[ &ç\ç] -ç^--#BPç_ /ç`3=çaQE_çb 2çcçdçe#VR0\çfçg>4çh 4çi>T>JHçj 8çkçl>çmçn0KKUço ;çp&>I9Kçq Bçrçs Eçt7G7IU/Q_JRçu GçvWE/U7çwSçx Hçyçz Iç{ç|/1E75ç}ç~	@WGMSU/QUçL/SS[KQ5çÄP7S7UçÅR/97FK57RE?57çÇSçÉX73UKQ.337E7Q/U?KIçÑG]çÖZQ?U7VIMQKU73UKQçÜ3K5?I;çá5E7SSçàU7QçâQ?7Sçä_çãçå NççC3çé Uçèçê=7QI7Uçëçíçì XçîJçï Yçñçó7IUçòSçôçö \çõ.2TçúTP6F6çù ]çûçü3EW57ç†73WU/1E7L/U=ç°?U0KKUR7QY?37Sç¢47E/_ç£MKS7R7IS?U?Y74/U/ç§U.MME7ç•P73Yç¶TFçß7I50T87/UWQ78E/;Sç®75T]8?9KR?a7ç©QI/Eç™	4?SC>3KISç´</Q54Q?Y7ç¨Q/FSQSç≠R=7EEçÆ	Z?I5K[SçØ	%%ç∞
+					<key>LayoutID</key>
+					<integer>23</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC255 for Asus X556UA m-dudarev</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAGXHCABlx0QAZce
+					gQGXHwQCFxwgAhcdEAIXHiECFx8EAbccMAG3
+					HQEBtx6gAbcfkAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>27</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
 					<key>AFGLowPowerState</key>
 					<data>
 					AwAAAA==
@@ -1582,28 +2852,92 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					<string>Realtek ALC255 for Lenovo B470 - vusun123</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
-					<key>Conü Data<  ç± ç≤ç≥ 9ç¥çµ?ç∂ç∑
-#WM5/U7Qç∏ :çπ	=9^ZPS3aFç∫ ;çªçºçΩ Gçæ175575çø Iç¿#VRç¡/1E7ç¬Sç√3K5?I;çƒ ]ç≈/3Uç∆=?1?USç«nteger>
+					<key>ConfigData</key>
+					<data>
+					ASccYAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					FwFHH5ABRwwCAhccMAIXHRACFx4hAhcfAQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>28</integer>
-					<key>WakeConfigData</key				< ç»ç…ç  'çÀ&çÃ (çÕ&$,42,çŒ',22,çœ2,,2,ç– )ç—B-$,%$,:VB'8+.4ç“	^-^^@L+NFç” *ç‘,)Zç’ /ç÷ç◊5U6I/1E7P7S7UçÿG?E_çŸç⁄D7;/3_ç€ç‹ 7ç›çﬁ/UWQ78E/;SçﬂSç‡5KQ/ç· >ç‚\64ç„ ?ç‰çÂ	9K2KIUQKEçÊR?a7çÁ	EU7Q?I;çËI5çÈQG[/Q7XKEWG7çÍ]çÎWMçÏçÌ EçÓ/;SçÔS=ç	7]P/U?KçÒK[2KIUQKEçÚ HçÛa`<NçÙ JçıPFVD.#`çˆ Kç˜ç¯3WSç˘IUç˙ç˚Q37ç¸.OW/IU?/6U=7QI7Uç˝0KKSUç˛U7QR?;I/UWQ7çˇ4?SME/_PKU/U?KI>I68>é 6]?U0KKUR7QY?37SéJ3ZQ?U78E/S=é
-P7SKEWU?KIéR73WQ70KKUR3=7G7é;7UT=Q7S=KE5éV79?RWMMKQUé Qéé/G71W997Q>I9Ké	770R4é
-4JRé?7I5éé4/U/LQKY?57Qéé
-W;/E[/Q7é Sé	2KII73Ué Wéaa_F/U3=é \éé	#:.F>H:é.#V4'éta>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>dhinakg - Realtek ALC255 for Acer Predator G3-571</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAGXHCABlx0QAZce
+					gQGXHwQCFxwgAhcdEAIXHiECFx8EAbccMAG3
+					HQEBtx6gAbcfkAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>29</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>HongyuS - Realtek ALC255 for XiaoMiAir 13.3</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccMAEnHQEBJx6mAScfkAFHHBA® 0BAUc éé /éES7éIé 7é	I;;W/I;é ?é E7é!QG[/Q7é"SUé#]é$ Eé%/;é& Ké'EEK[?I;é(IUé)Qé*G/Ué+WI5é, Qé-KGé. Wé/I3U?KI/E?U_é0c
+					ASccMAEnHQEBJx6mAScfkAFHHBABRx0BAUce
+					FwFHH5ABRwwCAXccAAF3HQABdx4AAXcfQAGH
+					HPABhx0AAYceAAGHH0ABlxwgAZcdEAGXHoEB
+					lx8EAacc8AGnHQABpx4AAacfQAG3HPABtx0A
+					AbceAAG3H0AB1xwtAdcdmgHXHvcB1x9AAecc
 					8AHnHQAB5x4AAecfQAIXHCACFx0QAhceIQIX
 					HwQCFwwC
 					</data>
-					<keyIncGro é1é2é3 .é4#--$8\#:.F>H:é5F>H:é6é7 /é8é9é:?Ié;G/é<?I;é=#28é>G/é?U7é@ 1éA?UéB 6éCH'éD 7éEéFéGIéH%$éI
-7!ÅQ?3KéJEéKQ?3éLéM!åC?éNSCéOUKKéP =éQ
-9^ZPS3aFéR EéSK1/E2KII73UéT KéUéV
-E57I:/U7éWMéX	0WQSUFK57éYL/SST=QKW;=éZP7I57Q?I;é[RUKMé\ Lé]Vé^é_Sé` MéaW0/QSéb Péc	V0R=7EEéd Qéeéfég/M=?3Séh>IMWUF?QQKQ?I;éiJI2KII73UéjWSUW97I#LQK9?Eék_élém#–≥–∞–º–∞én77Iéoép?éqW1ér Tését Wéu?5évA
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>30</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>cowpod - Realtek ALC255 for UX360CA</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQABRx4XAUcfkAFHDAICFxwgAhcd
+					EAIXHiECFx8AAhcMAgEnHDABJx0AAScepgEn
+					H5ABlxxAAZcdAAGXHoEBlx8A
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -1623,16 +2957,65 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					</data>
 					<key>Codec</key>
 					<string>DoctorStrange96 - Realtek ALC255 for Acer Aspire A51x</string>
-					 y>Cod  éw éxéy /ézG/é{G/é|
-#MQK9?Eé}	MQK9?Eé~ 7é!ÅéÄI7!ÅQ?OW7éÅI7!ÄQ?3/éÇÅQ?3KéÉ	Q?3/!ÜéÑKéÖ QéÜ/!äéá?éà;?KéâASéäSéã7SéåKSéç Wéé/I;5Wéè		<integz1</in éêéë /éíéì?CWéîEUD7Y7Eéï	Q54Q?Y7éñ[/Q78EK[2KIUQKEéóS=éòR7QY?37SéôUéö 4éõéú'Léù 5éû/éü 6é†#6$-)é°#BPé¢---#BPé£PJé§ 7é•/57QSé¶ 8éßRé® 9é©é™SLEWSé´é¨ ?é≠17QI/U7F/MéÆ	K57éØRC?MSL?3C7Qé∞57.W]?E?/Q_é±X7Q1KS7é≤ Ké≥UB7_Sé¥LEW;éµ Mé∂7URWMMKQUé∑ Wé∏1éπ [é∫R?;éª02549</integer>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccQAEnHQEBJx6mAScfkAFHHCABRx0BAUce
+					FwFHH5ABRwwCAZcccAGXHRABlx6LAZcfAgIX
+					HDACFx0QAhceIQIXHwICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>71</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Bhavin dell 5559 alc255</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
 					<key>ConfigData</key>
 					<data>
 					ASccEAEnHQEBJx6mAScfkAFHHCABRx0BAUce
-					FwFHH5ABRwwCAZccMAGXHRABk LAZcf éºéΩ /éæéøI;?I;é¿QG//Ié¡Y7é¬ ?!Äé√I=éƒ Ué≈UMé∆ Wé«?é»A?7é…ey>LayoutID</>
-			  é  éÀéÃ 3éÕKISéŒ 5éœé–7IU?9?7Qé—	é“Sé” 6é‘
-2*%-**#&é’ 9é÷é◊ ;éÿIKQ7>IY/E?58E7]P/U?KéŸT7]U>I:Q/M=?3Sé⁄ >é€é‹ Gé›éﬁ/;7éﬂ2KIY7QS?KIé‡;(X7Q?9?3/U?KIé· Ié‚é„3Q7/S7L3?0/QR?a7é‰68>éÂ9KéÊéÁéË
-:Q/M=?3SéÈ?UéÍ
-?/E47E/_éÎFK57éÏMWUéÌéÓF?QQKQ?I;éÔSéU/I37>57IU?9?7QéÒU7EéÚF/WS?éÛ	éÙQ9/37T=7G7éıI/EéˆY/E?58E7]P/U?Ké˜ Jé¯é˘é˙é˚,$&%%8/G?E_D7;/3_é¸é˝RC_[/EC8/G?E_é˛éˇ Kè èF/MM7Qè	F/MM?I;èwAZcdEAGXHosB
+					FwFHH5ABRwwCAZccMAGXHRABlx6LAZcfAgIX
+					HEACFx0QAhceIQIXHwICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>96</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>DalianSky - Realtek ALC255 (3246) for XiaoMi Air</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQEBJx6mAScfkAFHHBABRx0BAUce
+					FwFHH5ABRwwCAXcc8AF3HQABdx4AAXcfQAGH
+					HPABhx0AAYceAAGHH0ABlxxwAZcdEAGXHosB
 					lx8CAacc8AGnHQABpx4AAacfQAG3HPABtx0A
 					AbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc
 					8AHnHQAB5x4AAecfQAIXHCACFx0QAhceKwIX
@@ -1654,13 +3037,29 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					<data>
 					AwAAAA==
 					</data>
-	Ã 	<key èè )è#%'*$$C9è 3èISè	 5è
-è 8èè 9èè :èLVè Fè/3è GèMKS7è Ièèè
-SU/EE/U?KIèU7;7QèQI/Eè KèC?Uè SèèSW7è Sè! Uè"è#EBJx6mAScfkAE3HPABNx0AATce
-					AAE3H0ABRxxA5  dAQFH è$ 7è%UU?SKIè& Wè'	GMSU/QUè(<KULEW;è)HHg  					 è* %è+*$è,x6LAZcfAgGnHPABpx0A
-					AaceAAGnH0ABtx,bcdAA è-è. /è/E?è0 7è1è2QI7Eè3è4.Q3=è52/3=7è6L/I?3è7]U4WGMè8Sè9
-_8?EU7Q?I;è:KQ;7UT=Q7S=KE5è;>I?U?/E47E/_è<F/Mè=RW1S7OW7IU47E/_è>MMKQUè?	FK57è@[/MèASèBT7SU7QèC ?èD3C7QèE IèFKMM?]èG PèHèI WèJ1WIUWèK ^èL
--^^@L+NFèMbReinit</key>
+					<key>Codec</key>
+					<string>DalianSky - Realtek ALC255 (3246) for alienware alpha r2</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgF3
+					HPABdx0AAXceAAF3H0ABhxzwAYcdAAGHHgAB
+					hx9AAZccEAGXHRABlx6LAZcfAgGnHPABpx0A
+					AaceAAGnH0ABtxzwAbcdAAG3HgABtx9AAdcc
+					8AHXHQAB1x4AAdcfQAHnHJAB5x3gAeceRQHn
+					HwECFxwwAhcdEAIXHisCFx8CAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>100</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
 				<dict>
@@ -1669,40 +3068,202 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>Realtek ALC255(3234) for Dell Inspiron 5548 by X CYX</ èNèOèP 1èQ5èR 7èSèT7MS_GSèU]UèVèW_èX 9èYèZ Iè[K[Iè\key>
+					<string>Realtek ALC255(3234) for Dell Inspiron 5548 by CynCYX</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
 					<data>
-					ASccEAEnHQ«x6mAS è]è^ .è_H:è` /èaèb17EècC7#RèdM?3B7QI7EL/I?3èeU7èfWI3=7QJMU?KIègL/U=èhY9),èi 7èjèk9Uèl;/3_èmèn2KGGM/;7èo	JY7Q[Q?U7èpR3=7G/èqI;U=èrKYKèsY7Eèt ?èuèv/IUèwEWèxèyG?Uèzè{	I72KIUQKEè|C75?U@7UU?SKIè}W]è~SU#%è HèÄ(èÅ8èÇ	XH0%*%&%*èÉ KèÑèÖ/56/QE_èÜ?I;èá3Cèàèâ;èäFK5WE7Sèã	KRU/UWSèå Wèçèé1WIUWèè3_PTD,%&)6U=7QI7Uèêèëinit</key>
+					ASccEAEnHQEBJx6mAScfkAFHHCABRx0BAUce
+					FwFHH5ABdxzwAXcdAAF3HgABdx9AAYcc8AGH
+					HQABhx4AAYcfQAGXHDABlx0QAZceiwGXHwIB
+					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
+					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAhccQAIXHRACFx4rAhcfAgFH
+					DAICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>255</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAI=
+					</data>
+					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
 				<dict>
-		u <key> èíèì &èî]èï /èñI;èóW/;7èò_KWU#?5èô 1èöEèõ ?èúG?UèùI7èûSUèü Kè†I;7Qè°[7Qè¢ng>ø			<k è£è§è•è¶ %èßè®è©è™ )è´.-+è¨-8\è≠\èÆ .èØè∞..è±2<#Z\-è≤#L20è≥T6è¥\>FVRèµ /è∂è∑!Äè∏Wèπ3è∫èª#&+.4&8-%,.6*,8*%èº00+0(266,6*%èΩ+0.)0&486&&444,2èæ..-)0%44.0&+,0-)èø8,-0*4-()%.(-$0è¿288+4-%$.+('2..8è¡8(&$,42,è¬',22,è√2,,2,èƒ?IUKS=è≈JRè∆LQK+è«;7?/è»?I1K/Q5è…I/;7G7IUè 	èÀA/QKèÃMèÕM7QèŒ	F/MM?I;èœ?I;è–è—SCè“è”U3=è‘WS?è’è÷]è◊èÿ0>JRX7QS?KIèŸ?GWG:/?Iè⁄B7QI7Eè€RE?57è‹ 2è›èﬁèﬂ<2è‡è·è‚ 7è„è‰GKQ_èÂF/MèÊ	P7;?KISèÁRU/UWSèËT7SUèÈ,*èÍ ?èÎèÏIèÌ4/U7èÓ?GWG.SS?SU:/?IèÔ
-W5?1E7:/?IèB7QI7EèÒUèÚX7QS?KIèÛ	QQKQ?I;èÙS3èı Dèˆ0è˜ Gè¯è˘/M4WGMè˙?Kè˚	Z=?U7E?SUè¸ Kè˝57è˛èˇEê RE?57ê[?U3=êWE7Sê Lêê Rê#%+6Bê+0$-ê Sê	ê
-Q6&êSê Vê	:V86NC3êX=6NC3ê WêEê \ê	#:/G?I;êdata>
-					<key>FuncGroup</key>
-					<integer>1</integer>Ã 			<k  ê êêê /ê3JRêSêI/;7Qê?I;êU3=ê?I;ê_ê 7ê ê!GU7SUê"SS/;7ê# ?ê$/KS=Wê% Kê&ê'57ê(Eê):PV0R=7EEê*?9_ê+ Uê,,*ê- Wê.EU?MQK37SSKQê/tate</key>
+					<key>AFGLowPowerState</key>
 					<data>
 					AwAAAA==
-					</Ï a>
-		 ê0ê1 /ê2G7ê3 6ê4X.ê5 7ê6U0R4ê7 9ê8\[ê9 >ê:2ê; Kê<ê=
-B7]U4WGMê>QG/E?a7<7/57QSê? Wê@G17QêA XêBêCP.FêDêEêF YêGêHQ/GêI6IUQ_êJ
-êK \êLN\0[êM aêN`<NêO					FwFHH5A> wwAZc êP /êQG7êR 7êS7575êT KêUêVUêW
-?9?3/U?KISêXB
+					</data>
+					<key>Codec</key>
+					<string>Realtek ALC255 for Acer Aspire 7 A715-42G AMD by Long</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccQAEnHQEBJx6mAScfkAFHHCABRx0BAUce
+					FwFHH5ABRwwCAZcccAGXHRABlx6LAZcfAgIX
+					HDACFx0QAhceIQIXHwICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>80</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Realtek ALC256</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					AScc8AEnHQABJx4AAScfQAFHHCABRx0AAUce
+					FwFHH5ABlxwwAZcdEAGXHosBlx8CAhccUAIX
+					HRACFx4rAhcfAgE3HPABNx0AATceAAE3H0AB
 					hxzwAYcdAAGHHgABhx9AAacc8AGnHQABpx4A
-					AacfQAG3H›tx0AA êYêZê[ 1ê\	73I/!Åê] 2ê^ê_
-68>.W5?Kê` 3êaZQ?U78E/S=êb 6êcF.Dêd2TêeR<êfZ^êg 7êhGT/1E7>5êi Iêj1K/Q5êk	2KII73UêlFK57R[?U3=êmP7S2=/I;7ên Mêoêp7I2/IKM_êq	êrKIUQKEêsQ7êt<9SLEWSêu
-êvPWIU?G7êw
-êxR=7EEêyU?KIêz/Eê{PKGSê| Qê}/3E7ê~I;7ê RêÄêÅêÇêÉ>I9KêÑ UêÖ=7QêÜ WêáUF/SCêàMWUêâ Yêäêã7QêåQ?57êçêéSêè[Q?U7êê [êë	I7QS=?Mêíell Series with subwoofer</é ing>
- êìêî 3êïêñ 9êóêò Eêôêö	52KI9?;êõ7Qêú Iêùêû7êüE_ê† Mê°ê¢7I3KQ7#Y7QS?KIê£RVR6ê§ Qê•ê¶?;?I/Eêß		FwFHH5ABRwwCAZccMAGXHRABlx6LAZcfAgG3
+					AacfQAG3HDABtx0AAbceoAG3H5AB1xzwAdcd
+					AAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAFH
+					DAIBtwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>5</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Rockjesus - Realtek ALC256 (3246) - dell 7559</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccAAEnHQEBJx6mAScfmQFHHBABRx0BAUce
+					FwFHH5kCFxwgAhcdEAIXHiECFx8BAbcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Insanelydeepak - Realtek ALC256 (3246) for Dell Series</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					FwFHH5ABlxwwAZcdEAGXHosBlx8CAhccUAIX
+					HRACFx4rAhcfAgE3HPABNx0AATceAAE3H0AB
+					hxzwAYcdAAGHHgABhx9AAacc8AGnHQABpx4A
+					AacfQAG3HPABtx0AAbceAAG3H0AB1xzwAdcd
+					AAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAFH
+					DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Insanelydeepak - Realtek ALC256 (3246) for Dell Series with subwoofer</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					FwFHH5ABRwwCAZccMAGXHRABlx6LAZcfAgG3
 					HEABtx0AAbceFwG3H5ABtwwCAhccUAIXHRAC
-					Fx4rAhcfAgE3HPABNx0A†eAAE3 ê®ê©ê™ê´ .ê¨P.DD6Dê≠T>.DêÆ /êØê∞I?3ê±
-HKB7]U4WGMê≤QU_4Q?Y7Sê≥SSê¥êµ	T=QKW;=ê∂[KQ5ê∑ê∏</S=êπR/EUê∫U3=êª=êºêΩ 2êæêø0ê¿ 3ê¡ê¬?ê√	0/QR?a7êƒ
-47Y?37>I9Kê≈>Kê∆P1>Kê«KKUê»R7Q?/E47Y?37ê…D?IW]ê  6êÀ#4,êÃ 7êÕêŒQ9?Eêœ
-G?SS?KISê– =ê—K7I?]ê“UKS=KMê” ?ê‘3C7Qê’
-.UUQ?1WU7Sê÷
-W5?K.SS?SUê◊FK57êÿX/Q?/IUêŸ Dê⁄ê€>RTê‹V:#.DTê›êﬁRêﬂê‡ Eê·ê‚
-/U9KQG>I9Kê„_2=?G7ê‰?SUL/U=êÂW;êÊ>ISêÁSêËêÈêÍ GêÎ	29;DK3CêÏ KêÌêÓ?IU7Q4[7EE2E?3CT?G7KWUêÔ4KW1E72E?3CT?G7KWUêP/5?WSêÒLKEEF/SCêÚ]êÛ?IêÙRM7754?YêıFWEêˆWMMKQUê˜FK57ê¯E?3_ê˘E.MME7<KUB7_Sê˙F/SCê˚]ê¸?Iê˝MJRê˛QUêˇ	0Q3GH>2ë D?G?UëSëë[7QëF/I/;7G7IUëT?G7KWUB7QI7EL/I?3ë Pë>F6ëJë	ë
- QëëëKë+ë37SSKQë	ëT_M7ë5W3UëH/G7ë9?Eë7ëKëD?/IUë	M7QU?7Së_D?SU#%ëU73UF7GKQ_P7;?KISë
-R73WQ70KKUëV79?R7QY?37SëK3KEë	JY7QQ?57SëY?572KISKE7:KMë WQQ7IU2MW>I9Kë!	SUKGRE?57ë"F/]RE?57ë#Që$ë% Vë&0D>2ë' Wë(MM_ë)QME7ë*<dict>
+					Fx4rAhcfAgE3HPABNx0AATceAAE3H0ABhxzw
+					AYcdAAGHHgABhx9AAacc8AGnHQABpx4AAacf
+					QAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHn
+					HgAB5x9A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgG3DAICFwfAAhcIgwGXByQBpwcg
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>VicQ - Realtek ALC256 (3246) for Dell 7000 Series with 2.1Ch</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccYAEnHAEBJxymAScckAE3HPABNx0AATce
+					AAE3H0ABRxxAAUcdAQFHHhABRx+QAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxwgAZcdEAGXHosB
+					lx8BAacccAGnHQABpx6hAacfAQG3HEEBtx0B
+					AbceEAG3H5ABtwwCAdcc8AHXHQAB1x4AAdcf
+					QAHnHPAB5x0AAeceAAHnH0ACFxxQAhcdEAIX
+					HisCFx8BAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>16</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgG3DAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
 					<key>AFGLowPowerState</key>
 					<data>
 					AwAAAA==
@@ -1734,7 +3295,16 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<dat˚ 					 ë+ë,ë- /ë.QU?/Eë/ 7ë0Q9KQGë1 ?ë2C7Q/ë3 Eë4ë5/37G7IUë6?SUë7ë8W;#?Ië9?Ië:ë; Ië<;ë= Kë>E?3_ë?[7Që@ QëAëB7Y#E/I;ëC7IUëDK9?7EëE?E?ëFEëGM7QëHE_ëIUK3KEëJ WëKUKI;ëLe
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Andres ZeroCross for Asus AIO PC V222UAK-WA541T</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					AbccUAG3HQEBtx4XAbcfkAEnHDABJx0BASce
 					oAEnH5ACFxwgAhcdEAIXHiECFx8DAbcMAg==
 					</data>
 					<key>FuncGroup</key>
@@ -1745,11 +3315,25 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					<data>
 					AbcMAg==
 					</data>
-					<key>WakeVerbReinM /key> ëM CëN3ëO FëPëQ WëR?QCSëS [ëTëU	FV:V86NC3ëVX=6NC3ëWata>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
 					AwAAAA==
 					</data>
-					<key>C  c</ke ëX WëYKU7SëZres ZeroCross for Dell 5570</string>
-Ô 		<ke  ë[ ë\ë] %ë^H\N\0[ë_ &ë`ëa 'ëbëc .ëdFëeL.:6ëfH:6Pëg /ëh5?WSëiGëjU7ëk?Kël[VW?56I3K5?I;ëm 1ën>Këo 6ëpRTP>2Tëq 7ërës/3UJRëtEU7Cëu?G7ëv1/S7P7;?KISëwW?E5.MME7F7GKQ_F/MëxuncGroup</key>
+					<key>Codec</key>
+					<string>Andres ZeroCross for Dell 5570</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6gAScfkAFHHCABRx0BAUce
+					FwFHH5ABlxwwAZcdEAGXHosBlx8CAhccUAIX
+					HRACFx4rAhcfAgFHDAICFwwCAZcHJQIXCIM=
+					</data>
+					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>21</integer>
@@ -3362,6 +4946,32 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>35</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Realtek ALC269 - Samsung R780</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQABRx4XAUcfkAFXHCABVx0QAVce
+					IQFXHwEBhxwwAYcdEAGHHoEBhx8BAZccQAGX
+					HQABlx6gAZcfkAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>36</integer>
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAg==
@@ -5447,6 +7057,32 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					<data>
 					AwAAAA==
 					</data>
+					<key>CodecID</key>
+					<integer>283902598</integer>
+					<key>CodecName</key>
+					<string>HP-Pavilion-Wave-600-A058cn</string>
+					<key>ConfigData</key>
+					<data>
+					AYccEAGHHRABhx6BAYcfBAE3HCABNx0BATce
+					pgE3H5ACFxwwAhcdEAIXHiECFx8EAhcMAgF3
+					HEABdx0BAXceFwF3H5ABdwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>69</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Realtek ALC287</string>
 					<key>CodecID</key>
@@ -5490,6 +7126,36 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAgIXDAIBlwckAacHIAIXCIM=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC287 for Legion 5 Pro(R9000p)</string>
+					<key>CodecID</key>
+					<integer>283902599</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccQAEnHQEBJx6gAScfkAE3HPABNx0AATce
+					AAE3H0ABRxwQAUcdAQFHHhcBRx+QAUcMAgF3
+					HPABdx0AAXceAAF3H0ABhxzwAYcdAAGHHgAB
+					hx9AAZccMAGXHRABlx6BAZcfAwGnHPABpx0A
+					AaceAAGnH0ABtxzwAbcdAAG3HgABtx9AAdcc
+					8AHXHQAB1x4AAdcfQAHnHPAB5x0AAeceAAHX
+					H0ACFxwgAhcdEAIXHiECFx8DAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AhcMAg==
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
@@ -5639,6 +7305,31 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					AwAAAA==
 					</data>
 					<key>Codec</key>
+					<string>ALC289 for Dell XPS 15 9500 4 Speakers</string>
+					<key>CodecID</key>
+					<integer>283902601</integer>
+					<key>ConfigData</key>
+					<data>
+					AScfkAGXHEABlx0QAZcepwGXHwACFx8BAhcM
+					AgIFAEUCBNaJ
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AZcHJAIXDAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
 					<string>MacPeet - ALC289 for Dell 7730 Precision CM240 </string>
 					<key>CodecID</key>
 					<integer>283902601</integer>
@@ -5712,6 +7403,32 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAgG3DAICFwwC
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC289 for Dell XPS 2in1 7390 Vorshim</string>
+					<key>CodecID</key>
+					<integer>283902601</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQEBJx6mAScfkAFHHEABRx0BAUce
+					FwFHH5ABRwwCAZccQAGXHRABlx6nAZcfAAIF
+					AEUCBNaJAhcdEAIXHiECFx8BAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>69</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgGXByQCFwwC
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
@@ -9131,6 +10848,30 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>7</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AQAAAA==
+					</data>
+					<key>CodecID</key>
+					<integer>283904146</integer>
+					<key>Comment</key>
+					<string>ALC892 for MSI GF72-8RE</string>
+					<key>ConfigData</key>
+					<data>
+					AYcegQG3DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AbcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -13905,10 +15646,10 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					<integer>283902550</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccAAEnHQABJx4QAScfQAIXHBACFx0QAhce
-					IQIXHwICFwwCAeccIAHnHREB5x5FAecfAQHX
-					HCkB1x3AAdceRAHXH0ABlxwwAZcdEAGXHqAB
-					lx+SAbccQAG3HRABtx4RAbcfAQG3DAI=
+					AZccMAGXHRABlx6gAZcfkgIXHBACFx0QAhce
+					IQIXHwICFwwCAbccQAG3HRABtx4RAbcfAQG3
+					DAIB5xwgAecdEQHnHkUB5x8BAUcc8AFHHREB
+					Rx4RAUcfQQFHDAI=
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -13916,7 +15657,7 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					<integer>68</integer>
 					<key>WakeConfigData</key>
 					<data>
-					AhcMAgG3DAI=
+					AhcMAgG3DAIBRwwC
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
@@ -14105,6 +15846,87 @@ JIFK57R[?U3=åc?3CT?G7KWUådK3CP/U7åe HåfågXZåhåiåj JåkH2T
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAgG3DAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>aa820t - Realtek ALC269VC for Lenovo G480</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQABRx4XAUcfmQFHDAIBhxwgAYcd
+					EAGHHoEBhx8EAZccMAGXHQABlx6nAZcfmQFX
+					HEABVx0QAVceIQFXHwQBVwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>138</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgFXDAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>IDT 92HD81B1X5 by SkyrilHD for HP Elitebook 8x70 series</string>
+					<key>CodecID</key>
+					<integer>287143429</integer>
+					<key>ConfigData</key>
+					<data>
+					AKccMACnHRAApx4BAKcfIQCnDAIAtxwhALcd
+					EAC3HiEAtx8EALcMAgDHHBEAxx0QAMceoQDH
+					HwQAxwwCANccIADXHQEA1x4TANcfmQDXDAIA
+					5xzwAOcdAADnHvAA5x9AAOcMAgD3HBAA9x0Q
+					APcegQD3HyEA9wwCARccAAEXHQEBFx6jARcf
+					mQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>76</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AKcMAgC3DAIAxwwCANcMAgDnDAIA9wwC
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>lshbluesky - Realtek ALC256 for Samsung Galaxy Book NT750XDA-KF59U</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					AhccIAIXHRACFx4hAhcfAAIXDAIBlxwwAZcd
+					EAGXHqABlx+QAUccUAFHHQABRx4XAUcfkAFH
+					DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>38</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AhcMAgFHDAI=
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
