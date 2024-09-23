@@ -292,7 +292,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.8 | Required: Acidanthera plug-in manager</string>
+                    <string>V1.6.9 | Required: Acidanthera plug-in manager</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -310,7 +310,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.3 | Required: Emulates the SMC chip found on real macs, without this macOS will not boot.</string>
+                    <string>V1.3.4 | Required: Emulates the SMC chip found on real macs, without this macOS will not boot.</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -328,7 +328,7 @@
                     <key>BundlePath</key>
                     <string>AMFIPass.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1 | AMFIPass</string>
+                    <string>V1.4.1 | AMFIPass</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -400,7 +400,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.7 | Required: Lilu plugin for managing both internal GPU and AMD GPUs</string>
+                    <string>V1.6.8 | Required: Lilu plugin for managing both internal GPU and AMD GPUs</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -418,7 +418,7 @@
                     <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.4 | Required: Suppress notifications e.g. on wrong RAM placement</string>
+                    <string>V1.1.5 | Required: Suppress notifications e.g. on wrong RAM placement</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -452,27 +452,9 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>LucyRTL8125Ethernet.kext</string>
-                    <key>Comment</key>
-                    <string>V1.1.0 | Recommended: Enables the 2.5Gbit Realtek Ethernet Port</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/LucyRTL8125Ethernet</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>CPUFriend.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.8 | Recommended: CPU Power Management</string>
+                    <string>V1.2.9 | Recommended: CPU Power Management</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -526,7 +508,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.7 | Optional: Onboard Audio</string>
+                    <string>V1.9.2 | Optional: Onboard Audio</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -544,7 +526,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.3 | Optional: VirtualSMC-plugin for CPU Sensor Data e.g. CPU Core Temp</string>
+                    <string>V1.3.4 | Optional: VirtualSMC-plugin for CPU Sensor Data e.g. CPU Core Temp</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -562,7 +544,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.3 | Optional: VirtualSMC-plugin for Mainboard Sensor Data e.g. case fan speed</string>
+                    <string>V1.3.4 | Optional: VirtualSMC-plugin for Mainboard Sensor Data e.g. case fan speed</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -585,6 +567,42 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelMausi</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>USBToolBox.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/USBToolBox</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>UTBMap.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -839,7 +857,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 -v debug=0x100 agdpmod=pikera -amfipassbeta revpatch=sbvmm alcid=66 ipc_control_port_options=0</string>
+                    <string>keepsyms=1 -v debug=0x100 agdpmod=pikera -amfipassbeta revpatch=sbvmm alcid=66 ipc_control_port_options=0 amfi=0x80</string>
                     <key>csr-active-config</key>
                     <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
